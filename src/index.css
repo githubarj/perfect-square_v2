@@ -1,0 +1,15 @@
+:root {
+  --white: #f9fafb;
+  --purple-light: #c7a0f9;
+  --purple-normal: #7f56d9;
+  --dark: #1b152b;
+  --grey: #7a7d9c;
+  --heading-font: Inter;
+  --body-font: Manrope;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
