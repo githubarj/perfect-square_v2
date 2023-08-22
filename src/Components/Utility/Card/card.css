@@ -1,0 +1,35 @@
+.card-container {
+  padding: 20px;
+  width: 271px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+}
+
+
+.card-container img {
+  width: 40px;
+  height: 36px;
+}
+
+.card-container h1 {
+  color: var(--dark);
+  /* Heading/Medium-24px */
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-container p {
+  color: var(--grey);
+
+  /* Text/Medium-16 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.75px;
+}

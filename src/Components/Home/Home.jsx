@@ -1,7 +1,14 @@
+import Navbar from "../Utility/Navbar/Navbar"
+import Hero from "./Hero"
+import Products from "./Products"
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className="home-container page">
+      <Navbar/>
+      <Hero />
+      <Products />
+    </div>
   )
 }
 

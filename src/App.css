@@ -1,0 +1,14 @@
+.app-container {
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background: var(--white);
+  padding: 15px 67px 0px 67px;
+}
