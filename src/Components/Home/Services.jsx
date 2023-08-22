@@ -29,7 +29,7 @@ function Services() {
           text="Secure your water supply and reduce your dependence on municipal sources with our borehole drilling services. We specialize drilling and installation of boreholes for residential and commercial properties. "
         />
       </div>
-      <div className="services-links">
+      <div className="card-nav-links">
         <ContactBtn />
         <ViewAll />
       </div>
