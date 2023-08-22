@@ -1,3 +1,5 @@
+/* Hero Component */
+
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -36,24 +38,6 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.75px;
-}
-
-.hero-btn button {
-  display: flex;
-  padding: 8px 30px;
-  gap: 5px;
-  border-radius: 20px;
-  background: var(--normal);
-  border: none;
-  color: #fff;
-
-  /* Heading/XSmall-16 */
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
 }
 
 .hero-banner {
@@ -100,15 +84,15 @@
   letter-spacing: -0.96px;
 }
 
-/* Products component */
-.products-container {
+/* services component */
+.services-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
-.products-header {
+.services-header {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -119,7 +103,7 @@
   margin-bottom: 50px;
 }
 
-.products-header p {
+.services-header p {
   color: var(--grey);
   text-align: center;
   font-family: Manrope;
@@ -127,20 +111,7 @@
   letter-spacing: -0.75px;
 }
 
-.category {
-  padding: 0px 10px;
-  color: var(--normal);
-  border-radius: 22px;
-  border: 1px solid #eee2fe;
-  background: linear-gradient(
-    90deg,
-    #e9d8ff 0%,
-    rgba(255, 255, 255, 0) 100%,
-    #29252e 100%
-  );
-}
-
-.products-header h1 {
+.services-header h1 {
   color: var(--dark);
   text-align: center;
   font-family: Inter;
@@ -149,51 +120,268 @@
   letter-spacing: -3.827px;
 }
 
-.product-content {
+.services-content {
   display: flex;
   justify-content: space-between;
   padding: 47px 65px;
   width: 100%;
   margin-bottom: 30px;
   background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #eff0f6;
 }
 
-.product-links {
+.services-links {
   display: flex;
   gap: 24px;
   align-items: center;
 }
 
-.product-links button {
-  padding: 8px 30px;
-  background: var(--normal);
-  border-radius: 20px;
-  border: none;
-}
+/* Mission Component */
 
-.product-contact-link {
-  color: #fff;
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: -0.96px;
-  text-decoration: none;
-}
-
-.product-links p {
+.mission-container {
+  padding: 43px 20px;
   display: flex;
-  align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  border-radius: 32px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+  width: 100%;
 }
 
-.product-view-all {
-  text-decoration: none;
+.mission-content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.mission-text {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.mission-text h1 {
   color: var(--dark);
   font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.mission-text p {
+  color: var(--grey);
+  font-family: Manrope;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 24px */
+}
+
+.mission-image {
+  width: 564px;
+  background-image: url("/images/mission.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 32px;
+}
+
+/* Clients Component*/
+
+.clients-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.clients-content h1 {
+  color: var(--dark);
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.827px;
+}
+
+.clients-content p {
+  color: var(--grey);
+  text-align: center;
+
+  /* Text/Medium-16 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
+}
+
+/* Products Component*/
+
+.products-container {
+  padding: 36px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 32px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+}
+
+.products-content {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.products-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.products-content-text h1 {
+  color: var(--light);
+
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.products-content-text p {
+  color: var(--grey);
+
+  /* Heading/XSmall-16 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.products-nav-btns {
+  align-self: flex-end;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  display: flex;
+  height: 55.11px;
+  padding: 17.23px 19.23px 17.23px 15.23px;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid #7f56d9;
+  opacity: 0.801;
+  cursor: pointer;
+  background: var(--normal);
+}
+
+.left {
+  background: #fff;
+}
+
+.products-image {
+  background-image: url("/images/solar-light.jpg");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+  width: 564px;
+  height: auto;
+}
+
+/* Testimonials */
+
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.testimonials-container h1 {
+  color: var(--dark);
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.827px;
+}
+
+.testimonials-content {
+  height: 447px;
+  border-radius: 32px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.testimonials-image {
+  background-image: url("/images/client-image.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  width: 495px;
+  height: 335px;
+  border-radius: 16px;
+}
+
+.testimonial-info {
+  display: flex;
+  width: 440px;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.testimonial-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial-text p {
+  color: var(--grey);
+
+  /* Heading/XSmall-16 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.client-details h2 {
+  color: var(--dark);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.client-small-h2{
+  font-size: 20px;
 }

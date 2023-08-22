@@ -47,23 +47,3 @@
   letter-spacing: -0.75px;
 }
 
-.contact-btn {
-  padding: 8px 30px;
-  border-radius: 20px;
-  display: flex;
-  gap: 5px;
-  background: var(--normal);
-  border: none;
-
-  color: #fff;
-
-  /* Heading/XSmall-16 */
-  font-family: var(--heading-font);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
-
-  cursor: pointer;
-}

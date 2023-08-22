@@ -1,6 +1,6 @@
-
-import "./navbar.css"
-import { Link } from "react-router-dom"
+import ContactBtn from "../Modules/ContactBtn";
+import "./navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -9,7 +9,7 @@ function Navbar() {
         <img src="/images/vector.png" alt="" className="icon" />
         <h1>Perfect Square</h1>
       </div>
-      
+
       <div className="links">
         <ul>
           <li>
@@ -35,12 +35,9 @@ function Navbar() {
         </ul>
       </div>
 
-      <button className="contact-btn">
-        Contact Us
-      </button>
-
+      <ContactBtn />
     </div>
   );
 }
 
-export default Navbar
+export default Navbar;
