@@ -1,15 +1,12 @@
 import ContactBtn from "../Modules/ContactBtn";
+import Logo from "../Modules/Logo";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="navbar-container">
-      <div className="logo">
-        <img src="/images/vector.png" alt="" className="icon" />
-        <h1>Perfect Square</h1>
-      </div>
-
+     <Logo />
       <div className="links">
         <ul>
           <li>

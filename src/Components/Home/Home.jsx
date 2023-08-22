@@ -7,6 +7,7 @@ import Products from "./Products"
 import "./home.css"
 import Testimonials from "./Testimonials"
 import BlogsSection from "./BlogsSection"
+import Footer from "../Utility/Footer/Footer"
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <Products />
       <Testimonials />
       <BlogsSection />
+      <Footer />
     </div>
   )
 }

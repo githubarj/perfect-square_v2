@@ -408,4 +408,7 @@ line-height: normal;
 letter-spacing: -3.827px;
 }
 
-
+.blogs-section-content{
+  display: flex;
+  gap: 15px;
+}

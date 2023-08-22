@@ -7,27 +7,7 @@
   background: var(--dark);
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.logo img {
-  width: 27px;
-  height: 24px;
-}
-
-.logo h1 {
-  color: #fff;
-  text-align: center;
-  font-family: var(--heading-font);
-  font-size: 20.045px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.307px;
-}
 
 .links ul {
   list-style-type: none;
