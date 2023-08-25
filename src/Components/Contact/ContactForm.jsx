@@ -12,7 +12,9 @@ function ContactForm() {
       <div className="contact-form-main">
         <div className="contact-form-content">
           <form action="/submit" method="post" className="form-section">
+            
             <div className="form-row">
+
               <div className="form-column">
                 <label htmlFor="first-name">First Name</label>
                 <input type="text" id="first-name" name="first-name" required />
