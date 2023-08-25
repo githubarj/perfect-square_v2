@@ -101,3 +101,38 @@
   line-height: normal;
   letter-spacing: 1.307px;
 }
+
+/* Values */
+.components-header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 800px;
+}
+
+.components-header-container h1 {
+  color: var(--dark);
+  text-align: center;
+
+  /* Heading/XLarge-48px */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.827px;
+}
+
+.components-header-container p {
+  color: var(--grey);
+  text-align: center;
+
+  /* Text/Medium-16 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
+}

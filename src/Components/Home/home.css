@@ -90,37 +90,18 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  gap: 50px;
 }
 
-.services-header {
+.services-content{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   align-items: center;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: 50px;
+  width: 100%;
 }
 
-.services-header p {
-  color: var(--grey);
-  text-align: center;
-  font-family: Manrope;
-  font-size: 16px;
-  letter-spacing: -0.75px;
-}
-
-.services-header h1 {
-  color: var(--dark);
-  text-align: center;
-  font-family: Inter;
-  font-size: 48px;
-  font-weight: 400;
-  letter-spacing: -3.827px;
-}
-
-.services-content {
+.services-cards {
   display: flex;
   justify-content: space-between;
   padding: 47px 65px;
@@ -192,45 +173,20 @@
   border-radius: 32px;
 }
 
-/* Clients Component*/
-
-.clients-content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-}
-
-.clients-content h1 {
-  color: var(--dark);
-  text-align: center;
-  font-family: Inter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -3.827px;
-}
-
-.clients-content p {
-  color: var(--grey);
-  text-align: center;
-
-  /* Text/Medium-16 */
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.75px;
-}
 
 /* Products Component*/
 
 .products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.products-main {
   padding: 36px 20px;
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
   border-radius: 32px;
   border: 1px solid #eff0f6;
   background: #fff;
@@ -241,6 +197,7 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+  width: 100%;
 }
 
 .products-content-text {
@@ -301,7 +258,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 32px;
-  width: 564px;
+  width: 100%;
   height: auto;
 }
 
@@ -311,7 +268,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
 }
 
 .testimonials-container h1 {

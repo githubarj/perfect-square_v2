@@ -1,21 +1,14 @@
-import ArrowNavs from "../Utility/Modules/ArrowNavs"
-import CategoryTag from "../Utility/Modules/CategoryTag"
-import "./about.css"
-
+import ArrowNavs from "../Utility/Modules/ArrowNavs";
+import ComponentHeader from "../Utility/Modules/ComponentHeader";
+import { aboutHeader } from "./aboutData";
+import "./about.css";
 
 function Team() {
+  const info = { ...aboutHeader[1] };
   return (
     <div className="team-container">
       <div className="team-main">
-        <div className="team-main-top">
-          <CategoryTag text="Our Team" />
-          <h1>Meet Our Team</h1>
-          <p>
-            Meet our passionate and talented team, committed to delivering
-            exceptional results, driving innovation, and transforming your
-            vision into reality.
-          </p>
-        </div>
+        <ComponentHeader category={info.categoryTag} h1={info.h1} p={info.p} />
         <div className="member-info">
           <div className="member-info-text">
             <p>
@@ -57,4 +50,4 @@ function Team() {
   );
 }
 
-export default Team
+export default Team;

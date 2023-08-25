@@ -37,4 +37,20 @@ const values = [
   },
 ];
 
-export {values}
+const aboutHeader = [
+  {
+    id: 1,
+    categoryTag: "Our Values",
+    h1: "Guided by Integrity and Purpose",
+    p: "At Perfect Square, we are driven by a strong set of values that shape every aspect of our business, ensuring transparency, ethical practices, and a shared commitment to making a positive impact.",
+  },
+  {
+    id: 2,
+    categoryTag: "Our Team",
+    h1: "Meet Our Team",
+    p: "Meet our passionate and talented team, committed to delivering exceptional results, driving innovation, and transforming your vision into reality.",
+  },
+];
+
+
+export {values, aboutHeader}

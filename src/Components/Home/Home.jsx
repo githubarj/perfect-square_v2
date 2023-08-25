@@ -1,5 +1,4 @@
 import Navbar from "../Utility/Navbar/Navbar"
-import Clients from "./Clients"
 import Hero from "./Hero"
 import Mission from "./Mission"
 import Services from "./Services"
@@ -16,7 +15,6 @@ function Home() {
       <Hero />
       <Services />
       <Mission />
-      <Clients />
       <Products />
       <Testimonials />
       <BlogsSection />

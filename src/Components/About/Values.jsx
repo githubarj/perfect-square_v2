@@ -1,27 +1,24 @@
 import Card from "../Utility/Card/Card";
-import { values } from "./aboutData";
-import CategoryTag from "../Utility/Modules/CategoryTag";
+import { values,aboutHeader } from "./aboutData";
 import "./about.css";
+import ComponentHeader from "../Utility/Modules/ComponentHeader";
+
 
 function Values() {
+  const info = aboutHeader[0]
+
   const valuesSection = values.map((item) => {
     return <Card key={item.id} {...item} />;
   });
 
   return (
     <div className="values-container">
-      <div className="values-header">
-        <CategoryTag text="Our Values" />
-        <h1>Guided by Integrity and Purpose</h1>
-        <p>
-          At Perfect Square, we are driven by a strong set of values that shape
-          every aspect of our business, ensuring transparency, ethical
-          practices, and a shared commitment to making a positive impact.
-        </p>
-      </div>
-      <div className="values-main">
-        {valuesSection}
-      </div>
+      <ComponentHeader 
+      category={info.categoryTag}
+      h1 = {info.h1}
+      p = {info.p}
+       />
+      <div className="values-main">{valuesSection}</div>
     </div>
   );
 }
