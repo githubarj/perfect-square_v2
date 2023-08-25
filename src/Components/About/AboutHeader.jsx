@@ -7,6 +7,7 @@ function AboutHeader() {
         Empowering Progress: Illuminating, Sustaining, and Building a Better
         Future through Solar, Water, and Construction Expertise.
       </h1>
+      
       <p>
         At Perfect Square, our purpose is to enhance lives and businesses with
         pioneering water drilling, solar energy, and construction solutions.

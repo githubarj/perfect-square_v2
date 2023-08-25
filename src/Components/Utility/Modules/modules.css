@@ -136,3 +136,36 @@
   line-height: normal;
   letter-spacing: -0.75px;
 }
+
+/* pageHeader */
+.page-header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 930px;
+  
+}
+
+.page-header-container h1 {
+  color: var(--dark);
+  text-align: center;
+
+  /* Heading/XLarge-48px */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.827px;
+}
+
+.page-header-container p {
+  color: var(--grey);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}

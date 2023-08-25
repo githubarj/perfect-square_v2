@@ -1,13 +1,10 @@
 import ArrowNavs from "../Utility/Modules/ArrowNavs"
 import { homeHeaders } from "./homeData";
-import ComponentHeader from "../Utility/Modules/ComponentHeader";
+import ComponentHeader from "../Utility/Modules/ComponentHeader"
 import "./home.css"
 
 function Testimonials() {
-  const info = homeHeaders[3]
-
-
-
+  const info = homeHeaders[2]
 
   return (
     <div className="testimonials-container">

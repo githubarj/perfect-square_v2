@@ -15,4 +15,5 @@ body::-webkit-scrollbar{
   gap: 100px;
   background: var(--white);
   padding: 15px 67px 0px 67px;
+  align-items: center;
 }
