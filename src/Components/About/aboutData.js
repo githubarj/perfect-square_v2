@@ -1,4 +1,4 @@
-const pageHeader = {
+const aboutPageHeader = {
   h1:" Empowering Progress: Illuminating, Sustaining, and Building a Better Future through Solar, Water, and Construction Expertise.",
   p:"At Perfect Square, our purpose is to enhance lives and businesses with pioneering water drilling, solar energy, and construction solutions. We&apos;re committed to pushing limits, crafting transformative experiences, and shaping the future in an ever-changing world",
   display:""
@@ -61,4 +61,4 @@ const aboutHeader = [
 ];
 
 
-export {values, aboutHeader, pageHeader}
+export {values, aboutHeader, aboutPageHeader}
