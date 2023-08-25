@@ -23,7 +23,7 @@ function Testimonials() {
               </p>
               <div className="client-details">
                 <h2>Sarah Thompson</h2>
-                <h2 className="client-small-h2">Nairobi,Kenya</h2>
+                <h2 className="client-small-h2">Nairobi, Kenya</h2>
               </div>
             </div>
             <ArrowNavs />

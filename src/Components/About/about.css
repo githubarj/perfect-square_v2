@@ -1,0 +1,256 @@
+/* AboutHeader */
+.about-header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.about-header-container h1 {
+  color: var(--dark);
+  text-align: justify;
+
+  /* Heading/XLarge-48px */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.827px;
+}
+
+.about-header-container p {
+  color: var(--grey);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+/* AboutStory */
+
+.story-container {
+  padding: 36px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 32px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+}
+
+.story-unit {
+  display: flex;
+  gap: 39px;
+  align-items: center;
+}
+
+.story-img {
+  width: 564px;
+  height: 541px;
+  flex-shrink: 0;
+  background-image: url("/images/storypng.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 32px;
+}
+
+.story-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.story-unit p {
+  color: var(--grey);
+
+  /* Heading/XSmall-16 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+/* Values */
+.values-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.values-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 800px;
+}
+
+.values-header h1 {
+  color: var(--dark);
+  text-align: center;
+
+  /* Heading/XLarge-48px */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.827px;
+}
+
+.values-header p {
+  color: var(--grey);
+  text-align: center;
+
+  /* Text/Medium-16 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
+}
+
+.values-main {
+  padding: 47px 65px;
+  border-radius: 16px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distributes space evenly between elements */
+  align-items: flex-start;
+}
+
+/* Team  */
+
+.team-container,
+.team-main-top,
+.team-main,
+.member-info,
+.member-info-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-container {
+  gap: 30px;
+}
+
+.team-main {
+  gap: 50px;
+}
+
+.team-main-top {
+  gap: 20px;
+  width: 800px;
+}
+
+.team-main-top h1 {
+  color: var(--dark);
+  text-align: center;
+
+  /* Heading/XLarge-48px */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.827px;
+}
+
+.team-main-top p {
+  color: var(--grey);
+  text-align: center;
+
+  /* Text/Medium-16 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
+}
+
+.member-info {
+  gap: 30px;
+  padding: 30px 100px;
+  width: 850px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.member-info-text p {
+  color: var(--grey);
+  text-align: center;
+
+  /* Heading/XSmall-16 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.member-info-details {
+  gap: 10px;
+}
+
+.member-info-details h2 {
+  color: var(--normal);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.member-info-details p {
+  color: var(--grey);
+  text-align: center;
+
+  /* Heading/XSmall-16 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.member-social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.member-social-links img {
+  width: 16px;
+  height: 16px;
+}
+
+.twitter-size {
+  width: 19px;
+}
+
+.member-image {
+  width: 315px;
+  height: 315px;
+  border-radius: 315.092px;
+  border: 0.955px solid #fff;
+  background: url("/images/member-image.jpeg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

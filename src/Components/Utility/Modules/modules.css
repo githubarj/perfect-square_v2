@@ -4,9 +4,6 @@
   background: var(--normal);
   border-radius: 20px;
   border: none;
-}
-
-.contact-btn-link {
   color: #fff;
   font-family: Inter;
   font-size: 16px;
@@ -38,7 +35,6 @@
   font-size: 16px;
   letter-spacing: -0.75px;
 }
-
 
 /* Arrow Navs */
 

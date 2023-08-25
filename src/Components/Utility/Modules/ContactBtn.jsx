@@ -1,9 +1,20 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 import "./modules.css"
 function ContactBtn() {
+
+  const navigate = useNavigate()
+  
+
+   const navToContact = () => {
+     // 👇️ navigate to /contacts
+     navigate("/contact");
+   };
+
+
   return (
-    <button className="contact-btn">
-      <Link className="contact-btn-link" to= "/contact" >Contact Us</Link>
+    <button className="contact-btn" onClick={navToContact}>
+      Contact Us
     </button>
   );
 }
