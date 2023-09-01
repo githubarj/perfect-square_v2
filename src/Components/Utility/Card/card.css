@@ -1,9 +1,8 @@
 /* icon + paragraph card */
 
 .card-container {
-  flex-basis: calc(33%); 
+  flex-basis: calc(33%);
   flex-shrink: 0;
-
 
   display: flex;
   padding: 20px;
@@ -41,6 +40,9 @@
 /* blog-panel */
 
 .blog-panel-container {
+  flex-basis: calc(33% - 30px);
+  margin: 15px;
+  flex-shrink: 0;
   display: flex;
   padding: 20px;
   flex-direction: column;
@@ -48,7 +50,6 @@
   border-radius: 16px;
   border: 1px solid #eff0f6;
   background: #fff;
-  flex: 1 0 0;
 }
 
 .blog-panel-main {
