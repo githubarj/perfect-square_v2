@@ -4,6 +4,16 @@ const contactPageHeader = {
   display: "none",
 };
 
+const componentHeaders = [
+  {
+    id: 1,
+    categoryTag: "FAQs",
+    h1: "Answers to some of your questions",
+    p: `Don’t find the answers you were looking for? Contact us at `,
+    span: "perfectsquare@gmail.com",
+  },
+];
+
 const contactInfo = [
   {
     id: 1,
@@ -28,4 +38,4 @@ const contactInfo = [
   },
 ];
 
-export { contactPageHeader , contactInfo};
+export { contactPageHeader, contactInfo, componentHeaders };

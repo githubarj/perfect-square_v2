@@ -30,8 +30,6 @@
   width: 100%;
 }
 
-
-
 .form-section {
   display: flex;
   flex-direction: column;
@@ -90,7 +88,7 @@ textarea {
 
 .footer-label {
   align-items: center;
-  color: #1B152B !important;
+  color: #1b152b !important;
   text-align: center;
   font-family: Manrope;
   font-size: 12px;
@@ -118,4 +116,75 @@ textarea {
   letter-spacing: -0.96px;
   border: none;
   cursor: pointer;
+}
+
+input[type="checkbox"] {
+  accent-color: black;
+}
+
+.contact-form-info {
+  display: flex;
+  width: 100%;
+  max-width: 860px;
+  justify-content: space-between;
+  padding: 13px 46px;
+  border-radius: 16px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+  align-items: center;
+}
+
+/* FAQs */
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.faqs-questions-section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 0;
+}
+
+/* QuestionAnswer */
+
+.qa-container {
+  flex-basis: calc(50% - 10px); /* Set width for 2 items per row */
+  margin: 5px; /* Add margin for spacing */
+  flex-shrink: 0;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 22px 20px;
+  align-items: flex-start;
+  border-radius: 8px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+}
+
+.qa-container .question {
+  color: var(--normal);
+
+  /* Heading/XSmall-16 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.qa-container .answer {
+  color: var(--grey);
+
+  /* Text/Medium-16 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
 }

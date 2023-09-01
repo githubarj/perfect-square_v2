@@ -1,9 +1,12 @@
 /* icon + paragraph card */
 
 .card-container {
-  padding: 20px;
-  width: 271px;
+  flex-basis: calc(33%); 
+  flex-shrink: 0;
+
+
   display: flex;
+  padding: 20px;
   flex-direction: column;
   gap: 16px;
   align-items: center;

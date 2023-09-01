@@ -93,14 +93,16 @@
   letter-spacing: -0.75px;
 }
 
-.values-main {
+.values-main { 
+
   padding: 47px 65px;
   border-radius: 16px;
   border: 1px solid #eff0f6;
   background: #fff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Distributes space evenly between elements */
+  gap: 80px 0px;
+  justify-content: space-between;
   align-items: flex-start;
 }
 

@@ -12,9 +12,7 @@ function ContactForm() {
       <div className="contact-form-main">
         <div className="contact-form-content">
           <form action="/submit" method="post" className="form-section">
-            
             <div className="form-row">
-
               <div className="form-column">
                 <label htmlFor="first-name">First Name</label>
                 <input type="text" id="first-name" name="first-name" required />
@@ -49,7 +47,11 @@ function ContactForm() {
 
             <div className="form-footer">
               <div className="form-footer-terms">
-                <input type="checkbox" name="terms" required />
+                <input
+                  type="checkbox"
+                  name="terms"
+                  required
+                />
                 <label className="footer-label">
                   I agree with the terms of usage and privacy policy.
                 </label>

@@ -9,7 +9,7 @@ function ComponentHeader(props) {
         <CategoryTag text={props.category} />
         <h1>{props.h1}</h1>
         <p>
-          {props.p}
+          {props.p}<a href="">{props.span}</a>
         </p>
       </div>
     </div>
@@ -20,6 +20,7 @@ ComponentHeader.propTypes = {
   category: PropTypes.string,
   h1: PropTypes.string,
   p: PropTypes.string,
+  span: PropTypes.string,
 };
 
 export default ComponentHeader

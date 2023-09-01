@@ -4,6 +4,7 @@ import PageHeader from "../Utility/Modules/PageHeader";
 import { contactPageHeader } from "./contactData";
 import "./contact.css";
 import ContactForm from "./ContactForm";
+import FAQs from "./FAQs";
 
 function Contact() {
   return (
@@ -15,6 +16,7 @@ function Contact() {
         display={contactPageHeader.display}
       />
       <ContactForm />
+      <FAQs />
 
       <Footer />
     </div>
