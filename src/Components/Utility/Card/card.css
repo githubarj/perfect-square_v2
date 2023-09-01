@@ -131,3 +131,130 @@
   letter-spacing: -0.75px;
   align-self: flex-end;
 }
+
+/* PricingCard */
+
+.pc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 60px;
+  flex-basis: calc(33% - 20px);
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+}
+
+.pc-container h2 {
+  color: var(--text-dark-blue, #1b152b);
+  text-align: center;
+
+  /* Heading/Medium-24px */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pc-container p {
+  color: var(--text-dark-blue, #1b152b);
+  text-align: center;
+
+  /* Heading/XLarge-48px */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.827px;
+}
+
+.pc-container button {
+  border-radius: 20px;
+  border: 1px solid #7f56d9;
+  padding: 8px 30px;
+  color: #7f56d9;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  cursor: pointer;
+}
+
+.pc-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pc-details-constant ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pc-details-constant ul li {
+  display: inline-flex;
+  padding: 7px 9.813px 7px 8px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #eff0f6;
+  background: #f6f1fd;
+  color: var(--primary-purple-normal, #7f56d9);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pc-details-unique {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pc-details-unique p {
+  color: var(--text-grey, #7a7d9c);
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  align-self: flex-start;
+}
+
+.pc-details-unique ul {
+  list-style-type: none;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pc-details-unique li {
+  display: flex;
+  align-items: center;
+  color: var(--text-dark-blue, #1b152b);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pc-details-unique li::before {
+  content: "\2022"; /* Unicode bullet character or use any other character you prefer */
+  color: #7f56d9; /* Change the bullet color to your desired color */
+  font-size: 24px; /* Change the bullet size to your desired size */
+  margin-right: 5px; /* Adjust the margin for spacing between bullet and text */
+}
