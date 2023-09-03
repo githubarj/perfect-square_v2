@@ -6,9 +6,14 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="navbar-container">
-     <Logo />
+      <Logo />
       <div className="links">
         <ul>
+          <li>
+            <Link className="nav-links" to="/">
+              Home
+            </Link>
+          </li>
           <li>
             <Link className="nav-links" to="/about">
               About

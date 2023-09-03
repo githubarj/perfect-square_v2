@@ -16,7 +16,9 @@ function BlogsSection() {
       </div>
       <div className="card-nav-links">
         <ContactBtn />
-        <ViewAll />
+        <ViewAll
+        link="/blogs"
+         />
       </div>
     </div>
   );
