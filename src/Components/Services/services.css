@@ -1,0 +1,19 @@
+.services-body-container{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+}
+
+.products-collection {
+  display: flex;
+  width: 100%;
+  padding: 47px 65px;
+  flex-wrap: wrap;
+  gap: 81px 0px;
+  border-radius: 16px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+}
+
+
