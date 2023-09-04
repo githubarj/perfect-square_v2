@@ -3,8 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 265px;
-  width: calc(100% + 134px);
-  margin: 0 -67px;
+  width: 100%;
   padding: 80px 67px 54px 67px;
 }
 
@@ -12,6 +11,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  width: 100%;
 }
 
 .footer-links-section {
@@ -23,12 +23,14 @@
   border-bottom: 1px solid #ffffff7f; 
   border-left: none;
   border-right: none;
+  width: 100%;
 }
 
 .footer-links .links ul {
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  width: 100%;
 }
 
 .footer-links {
@@ -60,3 +62,27 @@
 .tw-icon{
     width: 20px;
 }
+
+@media screen and (max-width: 590px) {
+
+ .footer-links-section{
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+ }
+ .link-contact-us{
+  display: none;
+ }
+
+ .social-links{
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+ }
+
+}
+
+
+  
+  
+

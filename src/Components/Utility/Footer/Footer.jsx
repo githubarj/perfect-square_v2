@@ -30,8 +30,8 @@ function Footer() {
                   Pricing
                 </Link>
               </li>
-              <li>
-                <Link className="footer-links text-Medium " to="/pricing">
+              <li className="link-contact-us">
+                <Link className="footer-links text-Medium  " to="/pricing">
                   Contact Us
                 </Link>
               </li>

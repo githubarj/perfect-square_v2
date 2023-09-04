@@ -1,5 +1,4 @@
 import Navbar from "../Utility/Navbar/Navbar";
-import Footer from "../Utility/Footer/Footer";
 import PageHeader from "../Utility/Modules/PageHeader";
 import { contactPageHeader } from "./contactData";
 import "./contact.css";
@@ -18,7 +17,6 @@ function Contact() {
       <ContactForm />
       <FAQs />
 
-      <Footer />
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import Footer from "../Utility/Footer/Footer"
 import Navbar from "../Utility/Navbar/Navbar"
 import AboutStory from "./AboutStory"
 import Team from "./Team"
@@ -15,7 +14,6 @@ function About() {
       <AboutStory />
       <Values />
       <Team />
-      <Footer />
     </div>
   );
 }

@@ -8,6 +8,7 @@ import Article from './Components/Article/Article';
 import Blogs from './Components/Blogs/Blogs';
 import Services from './Components/Services/Services';
 import Pricing from './Components/Pricing/Pricing';
+import Footer from './Components/Utility/Footer/Footer';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/article" element={<Article />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

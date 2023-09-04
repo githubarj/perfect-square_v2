@@ -1,4 +1,3 @@
-import Footer from "../Utility/Footer/Footer"
 import Navbar from "../Utility/Navbar/Navbar"
 import PageHeader from "../Utility/Modules/PageHeader";
 import { pricingPageHeader } from "./pricingData";
@@ -15,7 +14,6 @@ function Pricing() {
         display={pricingPageHeader.display}
       />
       <Prices/>
-      <Footer />
     </div>
   );
 }

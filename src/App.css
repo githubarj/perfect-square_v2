@@ -14,14 +14,16 @@ body::-webkit-scrollbar{
   flex-direction: column;
   gap: 100px;
   background: var(--white);
-  padding: 15px 67px 0px 67px;
+  padding: 15px 67px 100px 67px;
   align-items: center;
   overflow: hidden;
 }
 
+
+
 @media screen and (max-width: 800px) {
   .page {
-    padding: 15px 38px 0px 38px;
+    padding: 15px 38px 80px 38px;
     gap: 80px;
 
   }
@@ -29,7 +31,7 @@ body::-webkit-scrollbar{
 
 @media screen and (max-width: 400px) {
   .page {
-    padding: 32px 8px 0px 8px;
+    padding: 32px 8px 59px 8px;
     gap: 59px;
     
   }

@@ -1,5 +1,4 @@
 import Navbar from "../Utility/Navbar/Navbar";
-import Footer from "../Utility/Footer/Footer";
 import { blogsPageHeader } from "./blogsData";
 import PageHeader from "../Utility/Modules/PageHeader";
 import "./blogs.css";
@@ -17,8 +16,6 @@ function Blogs() {
       />
       <HeroBlogs/>
       <Collection />
-
-      <Footer />
     </div>
   );
 }
