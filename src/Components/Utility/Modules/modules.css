@@ -46,7 +46,7 @@
 .arrow-nav-btns {
   align-self: flex-end;
   display: flex;
-  gap: 10px;
+  gap: 10px; 
 }
 
 .nav-btn {
@@ -63,6 +63,16 @@
 
 .left {
   background: #fff;
+}
+
+@media screen and (max-width: 400px) {
+  .arrow-nav-btns {
+    gap: 5px;
+  }
+  .nav-btn {
+    height: 40px;
+    padding: 10px 11px 10px 9px;
+  }
 }
 
 /* View All */
