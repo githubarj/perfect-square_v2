@@ -12,7 +12,7 @@ function ComponentHeader(props) {
           {props.p}
           <a href="">{props.span}</a>
         </p>
-      </div>
+      </div> 
     </div>
   );
 }

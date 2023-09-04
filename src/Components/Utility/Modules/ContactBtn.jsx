@@ -12,7 +12,7 @@ function ContactBtn() {
    };
 
 
-  return (
+  return ( 
     <button className="contact-btn text-Medium" onClick={navToContact}>
       Contact Us
     </button>

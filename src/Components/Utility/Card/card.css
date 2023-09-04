@@ -24,6 +24,34 @@
   line-height: 150%; /* 24px */
 }
 
+@media screen and (max-width: 850px) {
+  .card-container {
+    flex-basis: calc(50%);
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .card-container {
+    flex-basis: calc(100%);
+  }
+}
+@media screen and (max-width: 800px) {
+  .card-container h1 {
+    line-height: normal;
+  }
+  .card-container p {
+    line-height: normal;
+    letter-spacing: -0.75px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card-container img {
+  width: 26px;
+  height: 24px;
+}
+}
+
 /* blog-panel */
 
 .blog-panel-container {

@@ -18,11 +18,11 @@ function Services() {
           {servicesCards}
         </div>
         <div className="card-nav-links">
-          <ContactBtn />
+          <ContactBtn className="contact-btn-show"/>
           <ViewAll
           link="/services"
            />
-        </div>
+        </div> 
       </div>
     </div>
   );

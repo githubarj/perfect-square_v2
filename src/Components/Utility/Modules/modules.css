@@ -10,6 +10,14 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 400px) {
+  .contact-btn {
+    padding: 5px 11px;
+    font-size: 12px !important;
+    letter-spacing: -0.5px !important;
+  }
+}
+
 /* CategoryTag */
 
 .category {
@@ -24,6 +32,13 @@
     #29252e 100%
   );
   display: inline-block;
+}
+@media screen and (max-width: 400px) {
+  .category {
+    padding: 0px 18px;
+    font-size: 12px !important;
+    letter-spacing: -0.5px !important;
+  }
 }
 
 /* Arrow Navs */
@@ -98,18 +113,39 @@
 }
 
 .components-header-container h1 {
-  color: var(--dark);
   text-align: center;
 }
 
 .components-header-container p {
-  color: var(--grey);
   text-align: center;
 }
 .components-header-container a {
   text-decoration: none;
   color: var(--normal);
   font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .components-header-container h1 {
+    font-size: 36px;
+    letter-spacing: -0.96px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .components-header-container {
+    gap: 8px;
+  }
+  .components-header-container h1 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: normal;
+  }
+  .components-header-container p {
+    font-size: 12px;
+
+    letter-spacing: -0.5px;
+  }
 }
 
 /* pageHeader */
@@ -174,8 +210,6 @@
   margin-bottom: 20px;
   width: 720px;
 }
-
-
 
 .ap-container li {
   color: var(--grey);

@@ -16,13 +16,12 @@
   box-sizing: border-box;
 }
 
-h1{
+h1 {
   color: var(--dark);
 }
-p{
+p {
   color: var(--grey);
 }
-
 
 /*================================= Resusable Css classes==================== */
 
@@ -55,7 +54,7 @@ p{
   letter-spacing: -0.96px;
 }
 
-.heading-Medium { 
+.heading-Medium {
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -63,7 +62,7 @@ p{
   line-height: normal;
 }
 
-.heading-Small { 
+.heading-Small {
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -73,7 +72,7 @@ p{
 }
 
 .heading-XSmall {
-  font-family: Inter; 
+  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -83,7 +82,7 @@ p{
 
 /* text */
 
-.text-large{
+.text-large {
   font-family: Manrope;
   font-size: 24px;
   font-style: normal;
@@ -108,4 +107,18 @@ p{
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 800px) {
+  .heading-XXLarge {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .heading-XXLarge {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: normal;
+  }
 }
