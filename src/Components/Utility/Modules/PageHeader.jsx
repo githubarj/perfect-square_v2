@@ -5,9 +5,9 @@ import "./modules.css"
 function PageHeader(props) {
   return (
     <div className="page-header-container">
-      <h1>{props.h1}</h1>
-      <p>{props.p}</p>
-      <div className="btn-display" style={{display: `${props.display}`}}>
+      <h1 className="heading-XLarge">{props.h1}</h1>
+      <p className="text-Medium">{props.p}</p>
+      <div className="btn-display" style={{ display: `${props.display}` }}>
         <ContactBtn />
       </div>
     </div>

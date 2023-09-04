@@ -9,19 +9,16 @@
   border-radius: 32px;
   border: 1px solid #eff0f6;
   background: #fff;
-  width: 100%;
 }
 
 .story-unit {
   display: flex;
   gap: 39px;
-  align-items: center;
-  width: 100%;
 }
 
 .story-img {
   flex: 1;
-  height: 541px;
+  height: auto;
   width: 100%;
   
   background-image: url("/images/storypng.png");
@@ -39,17 +36,6 @@
   align-items: flex-start;
 }
 
-.story-unit p {
-  color: var(--grey);
-
-  /* Heading/XSmall-16 */
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
-}
 
 /* Values */
 .values-container {

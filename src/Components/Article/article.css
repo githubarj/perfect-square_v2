@@ -85,6 +85,6 @@
   background-repeat: no-repeat;
 }
 
-.category {
+.article-container .category {
   display: none;
 }

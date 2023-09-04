@@ -19,8 +19,8 @@
   justify-content: space-between;
   height: 84px;
   align-items: center;
-  border-top: 1px solid #ffffff7f; /* Adjust color and width as needed */
-  border-bottom: 1px solid #ffffff7f; /* Adjust color and width as needed */
+  border-top: 1px solid #ffffff7f; 
+  border-bottom: 1px solid #ffffff7f; 
   border-left: none;
   border-right: none;
 }
@@ -33,12 +33,6 @@
 
 .footer-links {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.75px;
   text-decoration: none;
 }
 
@@ -46,12 +40,6 @@
   display: flex;
   justify-content: space-between;
   color: rgba(255, 255, 255, 0.8);
-  font-family: Manrope;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.25px;
 }
 
 .social-links a {
@@ -67,7 +55,7 @@
 .link-icon {
   width: 16px;
   height: 16px;
-}
+} 
 
 .tw-icon{
     width: 20px;

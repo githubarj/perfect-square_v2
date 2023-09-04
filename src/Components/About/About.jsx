@@ -10,7 +10,7 @@ import PageHeader from "../Utility/Modules/PageHeader"
 function About() {
   return (
     <div className="about-page-container page">
-      <Navbar />
+      <Navbar /> 
       <PageHeader h1={aboutPageHeader.h1} p={aboutPageHeader.p} display={aboutPageHeader.display}/>
       <AboutStory />
       <Values />

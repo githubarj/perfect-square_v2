@@ -11,27 +11,27 @@ function Footer() {
           <div className="links">
             <ul>
               <li>
-                <Link className="footer-links" to="/about">
+                <Link className="footer-links text-Medium  " to="/about">
                   About
                 </Link>
               </li>
               <li>
-                <Link className="footer-links" to="/services">
+                <Link className="footer-links text-Medium " to="/services">
                   Services
                 </Link>
               </li>
               <li>
-                <Link className="footer-links" to="/blogs">
+                <Link className="footer-links text-Medium " to="/blogs">
                   Blogs
                 </Link>
               </li>
               <li>
-                <Link className="footer-links" to="/pricing">
+                <Link className="footer-links text-Medium " to="/pricing">
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link className="footer-links" to="/pricing">
+                <Link className="footer-links text-Medium " to="/pricing">
                   Contact Us
                 </Link>
               </li>
@@ -39,15 +39,20 @@ function Footer() {
           </div>
         </div>
         <div className="social-links">
-          <p>
-            <a href="https://githubarj.tech/" target="blank">© 2023 GithubaRJ.</a> All rights
-            reserved.
+          <p className="text-Small">
+            <a href="https://githubarj.tech/" target="blank">
+              © 2023 GithubaRJ.
+            </a>
+            All rights reserved.
           </p>
           <div className="social-icons">
             <a href="">
-              <img src="/images/twitter.png" alt="" className="link-icon tw-icon" />
+              <img
+                src="/images/twitter.png"
+                alt=""
+                className="link-icon tw-icon"
+              />
             </a>
-
             <a href="">
               <img src="/images/facebook.png" alt="" className="link-icon" />
             </a>
