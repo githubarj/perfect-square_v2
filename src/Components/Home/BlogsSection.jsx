@@ -1,14 +1,16 @@
-import CategoryTag from "../Utility/Modules/CategoryTag"
 import "./home.css"
 import ContactBtn from "../Utility/Modules/ContactBtn";
 import ViewAll from "../Utility/Modules/ViewAll";
 import BlogPanel from "../Utility/Card/BlogPanel";
+import ComponentHeader from "../Utility/Modules/ComponentHeader";
+import { homeHeaders } from "./homeData";
+import PropTypes from "prop-types"
 
-function BlogsSection() {
+function BlogsSection(props) {
+   const info = homeHeaders[3];
   return (
     <div className="blogs-section-container">
-      <CategoryTag text="Blogs" />
-      <h1>From our Latest Projects</h1>
+      <ComponentHeader category={info.categoryTag} h1={props.h1} p={info.p} />
       <div className="blogs-section-content">
         <BlogPanel />
         <BlogPanel />
@@ -16,12 +18,14 @@ function BlogsSection() {
       </div>
       <div className="card-nav-links">
         <ContactBtn />
-        <ViewAll
-        link="/blogs"
-         />
+        <ViewAll link="/blogs" />
       </div>
     </div>
   );
+}
+
+BlogsSection.propTypes = {
+  h1: PropTypes.string,
 }
 
 export default BlogsSection

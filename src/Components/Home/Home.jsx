@@ -1,26 +1,28 @@
-import Navbar from "../Utility/Navbar/Navbar"
-import Hero from "./Hero"
-import Mission from "./Mission"
-import Services from "./Services"
-import Products from "./Products"
-import "./home.css"
-import Testimonials from "./Testimonials"
-import BlogsSection from "./BlogsSection"
-import Footer from "../Utility/Footer/Footer"
+import Navbar from "../Utility/Navbar/Navbar";
+import Hero from "./Hero";
+import Mission from "./Mission";
+import Services from "./Services";
+import Products from "./Products";
+import "./home.css";
+import Testimonials from "./Testimonials";
+import BlogsSection from "./BlogsSection";
+import Footer from "../Utility/Footer/Footer";
+import { homeHeaders } from "./homeData";
 
-function Home() { 
+function Home() {
+  const blogInfo = homeHeaders[3];
   return (
     <div className="home-container page">
-      <Navbar/>
+      <Navbar />
       <Hero />
       <Services />
       <Mission />
       <Products />
       <Testimonials />
-      <BlogsSection />
+      <BlogsSection h1={blogInfo.h1} />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

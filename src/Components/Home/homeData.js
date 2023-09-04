@@ -17,6 +17,12 @@ const homeHeaders = [
     h1: "100+ Customers Countrywide",
     p: "",
   },
+  {
+    id: 4,
+    categoryTag: "Blogs",
+    h1: "From our Latest Projects",
+    p: "",
+  },
 ];
 
 const homeServices = [

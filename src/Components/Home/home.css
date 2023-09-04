@@ -265,18 +265,6 @@
   gap: 30px;
 }
 
-.blogs-section-container h1 {
-  color: var(--dark);
-  text-align: center;
-
-  /* Heading/XLarge-48px */
-  font-family: Inter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -3.827px;
-}
 
 .blogs-section-content {
   display: flex;

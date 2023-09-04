@@ -23,4 +23,8 @@ const articleData = [
   },
 ];
 
-export {articleData}
+const related = {
+  h1: "Related Works"
+}
+
+export {articleData, related}
