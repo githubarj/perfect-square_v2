@@ -28,11 +28,17 @@
   .card-container {
     flex-basis: calc(50%);
   }
+   .card-container:nth-child(3) {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 590px) {
   .card-container {
     flex-basis: calc(100%);
+  }
+  .card-container:nth-child(3) {
+    display: flex;
   }
 }
 @media screen and (max-width: 800px) {
@@ -118,6 +124,25 @@
 .read-more {
   color: #8b857f;
   align-self: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+  .blog-panel-container {
+    flex-basis: calc(50% - 30px);
+    margin: 15px;
+  }
+
+  .blog-panel-container:nth-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .blog-panel-container {
+    flex-basis: calc(100% - 16px);
+    margin: 8px;
+  }
+  
 }
 
 /* PricingCard */
