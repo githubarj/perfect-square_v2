@@ -8,7 +8,6 @@ function Services() {
     <div className="services-container page">
       <Navbar />
       <ServicesBody />
-
       <Footer />
     </div>
   );

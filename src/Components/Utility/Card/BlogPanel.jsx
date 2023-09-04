@@ -7,14 +7,14 @@ function BlogPanel() {
       <div className="blog-panel-main">
         <div className="blog-panel-image"></div>
         <div className="blog-group">
-          <h2>Solar</h2>
+          <h2 className="text-Medium">Solar</h2>
         </div>
         <div className="blog-panel-content">
-          <h1>
+          <h1 className="heading-Small">
             Illuminating Success: Installing Solar Panels for a Delighted
             Customer
           </h1>
-          <p>
+          <p className="heading-XSmall">
             In the vibrant city of Nairobi, Kenya, we shed light on success by
             installing cutting-edge solar panels for a delighted customer.
             Discover how our sustainable solution transformed energy dynamics
@@ -22,7 +22,9 @@ function BlogPanel() {
           </p>
         </div>
       </div>
-      <Link to="/article" className="read-more">Read more</Link>
+      <Link to="/article" className="read-more heading-XSmall">
+        Read more
+      </Link>
     </div>
   );
 }

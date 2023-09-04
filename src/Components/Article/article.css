@@ -24,34 +24,13 @@
 
 .oc-header .blog-group {
   color: #fff;
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.75px;
 }
 
-.oc-date {
-  color: var(--text-grey, #7a7d9c);
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.75px;
-}
 
 .overview-content h1 {
   color: #272422;
 
   /* Heading/XLarge-48px */
-  font-family: Inter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -3.827px;
 }
 
 .overview-pic {

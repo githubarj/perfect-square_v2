@@ -1,29 +1,22 @@
 import ArrowNavs from "../Utility/Modules/ArrowNavs";
 import ComponentHeader from "../Utility/Modules/ComponentHeader";
-import { aboutHeader } from "./aboutData";
+import { aboutHeader,aboutTeam } from "./aboutData";
 import "./about.css";
 
 function Team() {
   const info = { ...aboutHeader[1] };
+  const team = { ...aboutTeam[0] };
   return (
     <div className="team-container">
       <div className="team-main">
         <ComponentHeader category={info.categoryTag} h1={info.h1} p={info.p} />
         <div className="member-info">
           <div className="member-info-text">
-            <p>
-              During a train ride, a moment of inspiration struck Vasily. He
-              wished for a convenient study tool on his phone to help him
-              prepare for the LSAT. However, such an app didn&apos;t exist at
-              the time. Determined to overcome this hurdle, Vasily took matters
-              into his own hands and developed one of the earliest and most
-              comprehensive LSAT apps on the market. The app quickly gained
-              popularity, becoming the #1 paid LSAT app for over a year.
-            </p>
+            <p className="heading-XSmall">{team.text}</p>
           </div>
           <div className="member-info-details">
-            <h2 className="member-name">John Wick</h2>
-            <p className="member-post">CEO of Perfect Square</p>
+            <h1 className="member-name heading-XSmall">{team.name} </h1>
+            <p className="member-post heading-XSmall"> {team.position} </p>
             <div className="member-social-links">
               <a href="">
                 <img
@@ -42,7 +35,10 @@ function Team() {
           </div>
         </div>
       </div>
-      <div className="member-image"></div>
+      <div
+        className="member-image"
+        style={{ backgroundImage: `url(${team.image})` }}
+      ></div>
       <div className="team-arrow-navs">
         <ArrowNavs />
       </div>

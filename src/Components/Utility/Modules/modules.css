@@ -175,26 +175,8 @@
   width: 720px;
 }
 
-.ap-h1 {
-  color: var(--dark);
 
-  /* Heading/Small-20px */
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
-}
 
 .ap-container li {
-  color: var(--text-grey, #7a7d9c);
-
-  /* Heading/XSmall-16 */
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
+  color: var(--grey);
 }

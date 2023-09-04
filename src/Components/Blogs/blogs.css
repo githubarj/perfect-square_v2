@@ -42,14 +42,9 @@
   background: var(--light);
   align-self: flex-start;
 }
+
 .hb-group h2 {
   color: #fff;
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.75px;
 }
 
 .hb-panel-content {
@@ -63,24 +58,12 @@
   color: #8b857f;
 
   /* Heading/Small-20px */
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
 }
 
 .hb-panel-content h1 {
   color: #272422;
 
   /* Heading/Large-36px */
-  font-family: Inter;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
 }
 
 /* collections */

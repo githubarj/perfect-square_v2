@@ -4,7 +4,7 @@ import "./about.css";
 import ComponentHeader from "../Utility/Modules/ComponentHeader";
 
 
-function Values() {
+function Values() { 
   const info = aboutHeader[0]
 
   const valuesSection = values.map((item) => {

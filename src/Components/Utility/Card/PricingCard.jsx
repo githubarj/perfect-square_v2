@@ -1,11 +1,11 @@
-import "./card.css";
+import "./card.css"
 
 function PricingCard() {
   return (
     <div className="pc-container">
-      <h2>Geological Survey</h2>
-      <p>KSH 50,000</p>
-      <button>Get Started</button>
+      <h1 className="heading-Medium">Geological Survey</h1>
+      <h1 className="heading-XLarge">KSH 50,000</h1>
+      <button className="heading-XSmall">Get Started</button>
       <div className="pc-details">
         <div className="pc-details-constant">
           <ul>
