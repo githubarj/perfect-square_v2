@@ -1,5 +1,5 @@
 :root {
-  --white: #F2F5F7;
+  --white: #f2f5f7;
   --light: #c7a0f9;
   --normal: #7f56d9;
   --dark: #1b152b;
@@ -8,10 +8,104 @@
   --body-font: Manrope;
 }
 
+/* ===================================Base================================= */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+h1{
+  color: var(--dark);
+}
+p{
+  color: var(--grey);
+}
 
+
+/*================================= Resusable Css classes==================== */
+
+/* Headings */
+
+.heading-XXLarge {
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.827px;
+}
+
+.heading-XLarge {
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -3.827px;
+}
+
+.heading-Large {
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.heading-Medium {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.heading-Small {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.heading-XSmall {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+/* text */
+
+.text-large{
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.text-Medium {
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.75px;
+}
+
+.text-Small {
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}

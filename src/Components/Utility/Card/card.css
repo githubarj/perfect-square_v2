@@ -10,8 +10,6 @@
   gap: 16px;
   align-items: center;
   text-align: center;
-  font-style: normal;
-  line-height: normal;
 }
 
 .card-container img {
@@ -20,22 +18,14 @@
 }
 
 .card-container h1 {
-  color: var(--dark);
-  /* Heading/Medium-24px */
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 500;
+ line-height: 140%; /* 33.6px */
 }
 
 .card-container p {
-  color: var(--grey);
-
-  /* Text/Medium-16 */
-  font-family: Manrope;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: -0.75px;
+  line-height: 150%; /* 24px */
 }
+
+
 
 /* blog-panel */
 

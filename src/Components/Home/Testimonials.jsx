@@ -1,10 +1,11 @@
-import ArrowNavs from "../Utility/Modules/ArrowNavs"
-import { homeHeaders } from "./homeData";
-import ComponentHeader from "../Utility/Modules/ComponentHeader"
-import "./home.css"
+import ArrowNavs from "../Utility/Modules/ArrowNavs";
+import { homeHeaders, testimonialData } from "./homeData";
+import ComponentHeader from "../Utility/Modules/ComponentHeader";
+
+import "./home.css";
 
 function Testimonials() {
-  const info = homeHeaders[2]
+  const info = homeHeaders[2];
 
   return (
     <div className="testimonials-container">
@@ -13,20 +14,12 @@ function Testimonials() {
         <div className="testimonials-image"></div>
         <div className="testimonial-info">
           <div className="testimonial-text">
-            <p>
-              I had a phenomenal experience with the solar, water, and
-              construction expertise of Perfect Square. Their team&apos;s
-              dedication resulted in flawless installations, ensuring
-              sustainable energy and efficient water systems. Their attention to
-              detail and seamless project management exceeded my expectations.
-              Thanks to their innovative approach, we now enjoy a greener
-              environment and reliable infrastructure. I wholeheartedly endorse
-              Perfect Solutions for their exceptional services and
-              transformative impact.
-            </p>
+            <p className="heading-XSmall">{testimonialData.testimonialText}</p>
             <div className="client-details">
-              <h2>Sarah Thompson</h2>
-              <h2 className="client-small-h2">Nairobi, Kenya</h2>
+              <h1 className="heading-Medium"> {testimonialData.name} </h1>
+              <h1 className=" heading-Medium small-h1">
+                {testimonialData.location}
+              </h1>
             </div>
           </div>
           <ArrowNavs />
@@ -36,4 +29,4 @@ function Testimonials() {
   );
 }
 
-export default Testimonials
+export default Testimonials;

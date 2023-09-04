@@ -1,17 +1,14 @@
-import "./card.css"
+import "./card.css";
 import PropTypes from "prop-types";
 
-
-
 function Card(props) {
-
   return (
     <div className="card-container">
-        <img src={props.icon} alt="" />
-        <h1>{props.title}</h1>
-        <p> {props.text} </p>
+      <img src={props.icon} alt="" />
+      <h1 className="heading-Medium">{props.title}</h1>
+      <p className="text-Medium"> {props.text} </p>
     </div>
-  )
+  );
 }
 
 Card.propTypes = {
@@ -21,4 +18,4 @@ Card.propTypes = {
   text: PropTypes.string,
 };
 
-export default Card
+export default Card;

@@ -5,12 +5,7 @@
   border-radius: 20px;
   border: none;
   color: #fff;
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
-  letter-spacing: -0.96px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -29,11 +24,6 @@
     #29252e 100%
   );
   display: inline-block;
-  color: var(--grey);
-  text-align: center;
-  font-family: Manrope;
-  font-size: 16px;
-  letter-spacing: -0.75px;
 }
 
 /* Arrow Navs */
@@ -65,14 +55,10 @@
 .view-all {
   text-decoration: none;
   color: var(--dark);
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 150%; /* 24px */
 }
 
-.view-links-p {
+.view-links-div {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -91,10 +77,6 @@
   justify-content: space-around;
 }
 
-.logo img {
-  width: 27px;
-  height: 24px;
-}
 
 .logo h1 {
   color: #fff;
@@ -107,7 +89,7 @@
   letter-spacing: 1.307px;
 }
 
-/* Values */
+/* ComponentHeader */
 .components-header-container {
   display: flex;
   flex-direction: column;
@@ -119,27 +101,11 @@
 .components-header-container h1 {
   color: var(--dark);
   text-align: center;
-
-  /* Heading/XLarge-48px */
-  font-family: Inter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -3.827px;
 }
 
 .components-header-container p {
   color: var(--grey);
   text-align: center;
-
-  /* Text/Medium-16 */
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.75px;
 }
 .components-header-container a {
   text-decoration: none;

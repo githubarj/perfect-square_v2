@@ -17,27 +17,11 @@
 .hero-header h1 {
   color: var(--dark);
   text-align: center;
-
-  /* Heading/XXLarge-72px */
-  font-family: Inter;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -3.827px;
 }
 
 .hero-header p {
   color: var(--grey);
   text-align: center;
-
-  /* Text/Medium-16 */
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.75px;
 }
 
 .hero-banner {
@@ -64,25 +48,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--normal);
-  font-style: normal;
-  line-height: normal;
 }
 
-.stat h1 {
-  font-family: Inter;
-  font-size: 48px;
+.stat h1{
   font-weight: 600;
-  letter-spacing: -3.827px;
+  color: var(--normal);
+}
+.stat p {
+  color: var(--normal);
 }
 
-.stat p {
-  font-family: Manrope;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
-}
 
 /* services component */
 .services-container {
@@ -123,7 +98,6 @@
 .mission-container {
   padding: 43px 20px;
   display: flex;
-  justify-content: space-between;
   gap: 30px;
   border-radius: 32px;
   border: 1px solid #eff0f6;
@@ -147,22 +121,9 @@
   align-items: flex-start;
 }
 
-.mission-text h1 {
-  color: var(--dark);
-  font-family: Inter;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
-}
+
 
 .mission-text p {
-  color: var(--grey);
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 150%; /* 24px */
 }
 
@@ -173,6 +134,7 @@
   background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 32px;
+  max-height: 450px;
 }
 
 /* Products Component*/
@@ -194,7 +156,7 @@
 }
 
 .products-content {
-  width: 500px;
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -202,6 +164,7 @@
 }
 
 .products-content-text {
+
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -210,26 +173,8 @@
 
 .products-content-text h1 {
   color: var(--light);
-
-  font-family: Inter;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
 }
 
-.products-content-text p {
-  color: var(--grey);
-
-  /* Heading/XSmall-16 */
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
-}
 
 .products-nav-btns {
   align-self: flex-end;
@@ -254,12 +199,12 @@
 }
 
 .products-image {
+  flex: 1;
   background-image: url("/images/solar-light.jpg");
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 32px;
-  width: 100%;
   height: auto;
 }
 
@@ -269,47 +214,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
-.testimonials-container h1 {
-  color: var(--dark);
-  text-align: center;
-
-  font-family: Inter;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -3.827px;
-}
 
 .testimonials-content {
-  height: 447px;
   border-radius: 32px;
   border: 1px solid #eff0f6;
   background: #fff;
   display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: space-around;
+  gap: 46px;
+  padding: 66px 37.5px 46px 39.5px;
 }
 
 .testimonials-image {
+  flex: 1;
   background-image: url("/images/client-image.png");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  width: 495px;
-  height: 335px;
   border-radius: 16px;
+  height: auto;
 }
 
 .testimonial-info {
+  flex: 1;
   display: flex;
-  width: 440px;
   flex-direction: column;
   gap: 18px;
+  align-self: center;
 }
 
 .testimonial-text {
@@ -318,30 +250,10 @@
   gap: 20px;
 }
 
-.testimonial-text p {
-  color: var(--grey);
 
-  /* Heading/XSmall-16 */
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
-}
 
-.client-details h2 {
-  color: var(--dark);
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.96px;
-}
-
-.client-small-h2 {
-  font-size: 20px;
+.small-h1 {
+  font-size: 20px !important;
 }
 
 /* BlogSection Component */

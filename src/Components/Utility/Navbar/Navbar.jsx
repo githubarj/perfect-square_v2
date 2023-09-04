@@ -10,27 +10,27 @@ function Navbar() {
       <div className="links">
         <ul>
           <li>
-            <Link className="nav-links" to="/">
+            <Link className="nav-links text-Medium" to="/">
               Home
             </Link>
           </li>
           <li>
-            <Link className="nav-links" to="/about">
+            <Link className="nav-links text-Medium" to="/about">
               About
             </Link>
           </li>
           <li>
-            <Link className="nav-links" to="/services">
+            <Link className="nav-links text-Medium" to="/services">
               Services
             </Link>
           </li>
           <li>
-            <Link className="nav-links" to="/blogs">
+            <Link className="nav-links text-Medium" to="/blogs">
               Blogs
             </Link>
           </li>
           <li>
-            <Link className="nav-links" to="/pricing">
+            <Link className="nav-links text-Medium" to="/pricing">
               Pricing
             </Link>
           </li>

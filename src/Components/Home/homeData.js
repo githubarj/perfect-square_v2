@@ -40,4 +40,21 @@ const homeServices = [
   },
 ];
 
-export { homeHeaders, homeServices };
+const missionData = {
+  h1: " Empowering Sustainability Through Solar, Water, and Construction Solutions",
+  p: " At Perfect Square, our mission is to drive sustainable progress through the seamless integration of solar energy, efficient water drilling, and innovative construction solutions. By harnessing the power of the sun, providing access to vital water resources, and executing visionary construction projects, we&rsquo;re committed to shaping a greener, brighter, and more resilient future for communities and the environment alike.",
+};
+
+const productData = {
+  h1: "Solar Security Lights",
+  p: "Enhance the security of your property and reduce your energy costs with our solar-powered security lights. Our solar-powered security lights are energy efficient, easy to install, and require no electrical wiring.",
+};
+
+const testimonialData = {
+  testimonialText:
+    "I had a phenomenal experience with the solar, water, and construction expertise of Perfect Square. Their team&apos;s dedication resulted in flawless installations, ensuring sustainable energy and efficient water systems. Their attention to detail and seamless project management exceeded my expectations. Thanks to their innovative approach, we now enjoy a greener environment and reliable infrastructure. I wholeheartedly endorse Perfect Solutions for their exceptional services and transformative impact.",
+  name: "Sarah Thompson",
+  location: "Nairobi, Kenya",
+};
+
+export { homeHeaders, homeServices, missionData, productData, testimonialData };

@@ -8,7 +8,7 @@ import Testimonials from "./Testimonials"
 import BlogsSection from "./BlogsSection"
 import Footer from "../Utility/Footer/Footer"
 
-function Home() {
+function Home() { 
   return (
     <div className="home-container page">
       <Navbar/>
