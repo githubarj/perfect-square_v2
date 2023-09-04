@@ -46,7 +46,7 @@
 .arrow-nav-btns {
   align-self: flex-end;
   display: flex;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .nav-btn {
@@ -67,11 +67,12 @@
 
 @media screen and (max-width: 400px) {
   .arrow-nav-btns {
-    gap: 5px;
+    gap: 10px;
   }
   .nav-btn {
-    height: 40px;
-    padding: 10px 11px 10px 9px;
+    width: 24px;
+    height: 24px;
+    padding: 1.23px 2.12px 2.12px 1.23px;
   }
 }
 

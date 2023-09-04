@@ -277,8 +277,6 @@
   color: var(--light);
 }
 
-
-
 .products-image {
   flex: 1;
   background-image: url("/images/solar-light.jpg");
@@ -311,7 +309,7 @@
     gap: 24px;
   }
   .products-main {
-    padding: 36px 20px;
+    padding: 8px;
     gap: 20px;
     flex-direction: column-reverse;
     gap: 8px;
@@ -379,6 +377,49 @@
 
 .small-h1 {
   font-size: 20px !important;
+}
+
+@media screen and (max-width: 800px) {
+  .testimonials-content {
+    padding: 26px 38px;
+    gap: 46px;
+    flex-direction: column;
+  }
+
+  .testimonials-image {
+    height: 335px;
+    flex: none;
+  }
+  .testimonial-info {
+    flex: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .testimonials-container {
+    gap: 16px;
+  }
+  .testimonials-content {
+    padding: 8px;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+  }
+  .testimonial-info {
+    flex: none;
+  }
+
+  .testimonial-text h1 {
+    font-size: 16px !important;
+    letter-spacing: -0.96px;
+  }
+
+  .testimonials-image {
+    max-height: 300px;
+  }
+  .testimonial-info {
+    gap: 18px;
+  }
 }
 
 /* BlogSection Component */

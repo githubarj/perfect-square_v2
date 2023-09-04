@@ -8,7 +8,7 @@ function Testimonials() {
   const info = homeHeaders[2];
 
   return (
-    <div className="testimonials-container">
+    <div className="testimonials-container"> 
       <ComponentHeader category={info.categoryTag} h1={info.h1} p={info.p} />
       <div className="testimonials-content">
         <div className="testimonials-image"></div>
