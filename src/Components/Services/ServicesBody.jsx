@@ -11,7 +11,7 @@ function ServicesBody() {
   });
 
   return (
-    <div className="services-body-container">
+    <div className="services-body-container"> 
       <ComponentHeader
         category={header.categoryTag}
         h1={header.h1}

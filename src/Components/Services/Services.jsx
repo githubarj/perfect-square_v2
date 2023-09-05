@@ -6,7 +6,7 @@ function Services() {
   return (
     <div className="services-container page">
       <Navbar />
-      <ServicesBody />
+      <ServicesBody /> 
     </div>
   );
 }

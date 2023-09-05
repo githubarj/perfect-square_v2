@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 70px;
     align-items: center;
+    width: 100%;
 }
 
 .products-collection {
@@ -16,4 +17,20 @@
   background: #fff;
 }
 
+@media (max-width: 800px) {
+  .products-collection {
+    padding: 47px 11px;
+    gap: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .products-collection {
+    gap: 56px 0px;
+    padding: 8px;
+  }
+}
+  
+}
+  
 
