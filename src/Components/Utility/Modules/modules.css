@@ -72,7 +72,7 @@
   .nav-btn {
     width: 40px;
     height: 40px;
-    padding: 6.23px 7.12px 6.23px 7.12px ;
+    padding: 6.23px 7.12px 6.23px 7.12px;
   }
 }
 
@@ -177,10 +177,9 @@
   line-height: 150%; /* 24px */
 }
 
-
 @media screen and (max-width: 400px) {
   .page-header-container {
-    gap: 8px
+    gap: 8px;
   }
   .page-header-container h1 {
     font-size: 24px;
@@ -192,20 +191,6 @@
     letter-spacing: -0.96px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*======================================== ContactInfo============================================== */
 
@@ -243,15 +228,39 @@
   text-decoration: none;
 }
 
-/* ArticleParagraph */
+/* ==============================================ArticleParagraph=========================== */
 .ap-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-bottom: 20px;
-  width: 720px;
+  max-width: 720px;
+  width: 100%;
+}
+
+.ac-wrapper{
+  width: 90%;
 }
 
 .ap-container li {
   color: var(--grey);
 }
+
+@media screen and ( max-width: 400px) {
+  .ap-container h1 {
+    font-size: 16px !important;
+
+    font-weight: 400;
+
+    letter-spacing: -0.96px;
+    
+  }
+  .ap-container li {
+    font-size: 12px;
+
+    line-height: normal;
+    letter-spacing: -0.5px;
+  }
+}
+
+
