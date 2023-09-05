@@ -36,7 +36,6 @@ function Navbar() {
           </li>
         </ul>
       </div>
-
       <ContactBtn />
     </div>
   );
