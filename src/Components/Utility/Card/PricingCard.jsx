@@ -11,15 +11,15 @@ function PricingCard() {
           <ul>
             <li>
               Served by Industry Proffesionals
-              <img src="/public/images/tick.png" alt="" />
+              <img src="/images/tick.png" alt="" />
             </li>
             <li>
               Excellent Customer Support
-              <img src="/public/images/tick.png" alt="" />
+              <img src="/images/tick.png" alt="" />
             </li>
             <li>
               Guidance through out the Project
-              <img src="/public/images/tick.png" alt="" />
+              <img src="/images/tick.png" alt="" />
             </li>
           </ul>
         </div>
