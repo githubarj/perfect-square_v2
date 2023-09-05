@@ -136,6 +136,10 @@ input[type="checkbox"] {
   align-items: center;
 }
 
+
+
+
+
 @media screen and (max-width: 800px) {
   .contact-form-main {
     gap: 53px;
@@ -160,6 +164,13 @@ input[type="checkbox"] {
 @media  screen and (max-width: 590px) {
   .contact-form-box{
     display: none;
+  }
+
+  .contact-form-info {
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+    padding: 13px 30px;
   }
   
 }
