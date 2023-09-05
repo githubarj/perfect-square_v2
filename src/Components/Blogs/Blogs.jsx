@@ -5,7 +5,7 @@ import "./blogs.css";
 import HeroBlogs from "./HeroBlogs";
 import Collection from "./Collection";
 
-function Blogs() {
+function Blogs() { 
   return (
     <div className="blog-container page">
       <Navbar />

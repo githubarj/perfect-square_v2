@@ -1,4 +1,4 @@
-/* HeroBlogs */
+/* ==================================HeroBlogs======================================= */
 
 .hb-container {
   display: flex;
@@ -12,6 +12,7 @@
   box-shadow: 0px 4px 4px 0px rgba(113, 136, 225, 0.1),
     3px 0px 4px 0px rgba(113, 136, 225, 0.1);
   height: auto;
+  width: 100%;
 }
 
 .hb-image {
@@ -24,6 +25,7 @@
   box-shadow: 0px 15px 35px 0px rgba(103, 110, 118, 0.08),
     0px 5px 15px 0px rgba(0, 0, 0, 0.12);
   height: 344px;
+  width: 100%;
 }
 
 .hb-content {
@@ -66,7 +68,33 @@
   /* Heading/Large-36px */
 }
 
-/* collections */
+@media screen and (max-width: 800px) {
+  .hb-container {
+    flex-direction: column;
+    gap: 36px;
+
+  }
+
+  .hb-image {
+    height: 450px;
+    flex: none;
+  }
+  .hb-content {
+    flex: none;
+  }
+}
+  
+@media screen and (max-width: 400px) {
+
+  .hb-image {
+    height: 220px;
+  }
+}
+  
+
+
+
+/*==================================== collections ===========================================================*/
 
 .collection-container {
   display: flex;

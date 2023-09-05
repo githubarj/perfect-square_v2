@@ -2,7 +2,7 @@
 import "./blogs.css"
 import { Link } from "react-router-dom";
 
-function HeroBlogs() {
+function HeroBlogs() { 
   return (
     <div className="hb-container">
       <div className="hb-image"></div>
