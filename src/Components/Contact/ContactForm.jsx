@@ -5,7 +5,7 @@ import ContactInfo from "../Utility/Modules/ContactInfo";
 function ContactForm() {
   const contactDetails = contactInfo.map((item) => {
     return <ContactInfo key={item.id} {...item} />;
-  });
+  }); 
 
   return (
     <div className="contact-form-container">
@@ -47,11 +47,7 @@ function ContactForm() {
 
             <div className="form-footer">
               <div className="form-footer-terms">
-                <input
-                  type="checkbox"
-                  name="terms"
-                  required
-                />
+                <input type="checkbox" name="terms" required />
                 <label className="footer-label">
                   I agree with the terms of usage and privacy policy.
                 </label>

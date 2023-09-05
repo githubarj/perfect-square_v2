@@ -1,8 +1,9 @@
 .contact-form-container {
   display: flex;
   flex-direction: column;
+
   gap: 30px;
-  align-items: flex-start;
+  align-items: flex-start; 
   width: 100%;
 }
 
@@ -15,11 +16,12 @@
 
 .contact-form-box {
   height: 100%;
+  align-self: flex-start;
 }
 
 .contact-form-box img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .contact-form-content {
@@ -89,7 +91,6 @@ textarea {
 .footer-label {
   align-items: center;
   color: #1b152b !important;
-  text-align: center;
   font-family: Manrope;
   font-size: 12px;
   font-style: normal;
@@ -127,6 +128,7 @@ input[type="checkbox"] {
   width: 100%;
   max-width: 860px;
   justify-content: space-between;
+  gap: 30px;
   padding: 13px 46px;
   border-radius: 16px;
   border: 1px solid #eff0f6;
@@ -134,7 +136,38 @@ input[type="checkbox"] {
   align-items: center;
 }
 
-/* FAQs */
+@media screen and (max-width: 800px) {
+  .contact-form-main {
+    gap: 53px;
+  }
+  .contact-form-content {
+    .form-row {
+      flex-direction: column;
+    }
+  }
+  .form-footer {
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+
+  .form-footer-terms {
+    align-items: flex-start;
+  }
+
+}
+
+@media  screen and (max-width: 590px) {
+  .contact-form-box{
+    display: none;
+  }
+  
+}
+
+  
+
+
+/* =======================================FAQs================================== */
 .faqs-container {
   display: flex;
   flex-direction: column;
@@ -148,7 +181,7 @@ input[type="checkbox"] {
   gap: 30px 0;
 }
 
-/* QuestionAnswer */
+/* ========================================================QuestionAnswer======================= */
 
 .qa-container {
   flex-basis: calc(50% - 10px); /* Set width for 2 items per row */

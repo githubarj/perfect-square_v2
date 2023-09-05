@@ -211,7 +211,7 @@
 }
 
 .contact-info-container img {
-  width: 45.526px;
+  width: 40px;
   height: 38px;
 }
 
@@ -220,6 +220,7 @@
   color: var(--dark);
   font-style: normal;
   font-weight: 400;
+  text-align: center;
 }
 
 .contact-info-container a {
