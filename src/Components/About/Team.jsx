@@ -3,7 +3,7 @@ import ComponentHeader from "../Utility/Modules/ComponentHeader";
 import { aboutHeader,aboutTeam } from "./aboutData";
 import "./about.css";
 
-function Team() {
+function Team() { 
   const info = { ...aboutHeader[1] };
   const team = { ...aboutTeam[0] };
   return (

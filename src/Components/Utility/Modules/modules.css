@@ -1,4 +1,4 @@
-/* ContactBtn */
+/* ====================================ContactBtn=============================================== */
 .contact-btn {
   padding: 8px 30px;
   background: var(--normal);
@@ -18,7 +18,7 @@
   }
 }
 
-/* CategoryTag */
+/* ==============================================CategoryTag========================================= */
 
 .category {
   padding: 0px 10px;
@@ -41,7 +41,7 @@
   }
 }
 
-/* Arrow Navs */
+/* ==============================================Arrow Navs============================================= */
 
 .arrow-nav-btns {
   align-self: flex-end;
@@ -70,9 +70,9 @@
     gap: 10px;
   }
   .nav-btn {
-    width: 24px;
-    height: 24px;
-    padding: 1.23px 2.12px 2.12px 1.23px;
+    width: 40px;
+    height: 40px;
+    padding: 6.23px 7.12px 6.23px 7.12px ;
   }
 }
 
