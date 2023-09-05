@@ -95,7 +95,7 @@
   transform: rotate(90deg);
 }
 
-/* Logo */
+/* ==================================================Logo========================================== */
 
 .logo {
   display: flex;
@@ -159,7 +159,7 @@
   }
 }
 
-/* pageHeader */
+/* ==================================================pageHeader============================================== */
 .page-header-container {
   display: flex;
   flex-direction: column;
@@ -177,7 +177,37 @@
   line-height: 150%; /* 24px */
 }
 
-/* ContactInfo */
+
+@media screen and (max-width: 400px) {
+  .page-header-container {
+    gap: 8px
+  }
+  .page-header-container h1 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: normal;
+  }
+  .page-header-container p {
+    font-size: 16px;
+    letter-spacing: -0.96px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================== ContactInfo============================================== */
 
 .contact-info-container {
   display: flex;

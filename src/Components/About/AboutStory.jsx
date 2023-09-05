@@ -3,7 +3,7 @@ import "./about.css";
 import { aboutStory } from "./aboutData";
 
 function AboutStory() {
-  return (
+  return ( 
     <div className="story-container">
       <div className="story-initial story-unit">
         <div className="story-text">

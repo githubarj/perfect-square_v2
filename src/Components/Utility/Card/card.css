@@ -28,17 +28,11 @@
   .card-container {
     flex-basis: calc(50%);
   }
-   .card-container:nth-child(3) {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 590px) {
   .card-container {
     flex-basis: calc(100%);
-  }
-  .card-container:nth-child(3) {
-    display: flex;
   }
 }
 @media screen and (max-width: 800px) {
