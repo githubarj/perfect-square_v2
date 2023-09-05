@@ -140,7 +140,7 @@
   
 }
 
-/* PricingCard */
+/* ==========================================PricingCard================================== */
 
 .pc-container {
   display: flex;
@@ -153,6 +153,7 @@
   border-radius: 8px;
   border: 1px solid #eff0f6;
   background: #fff;
+  width: 100%;
 }
 
 .pc-container h1 {
@@ -163,7 +164,6 @@
 .pc-container p {
   text-align: center;
 
-  /* Heading/XLarge-48px */
 }
 
 .pc-container button {
@@ -249,3 +249,30 @@
   font-size: 24px; /* Change the bullet size to your desired size */
   margin-right: 5px; /* Adjust the margin for spacing between bullet and text */
 }
+
+@media screen and (max-width: 970px) {
+  .pc-container {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .pc-container {
+
+    padding: 16px 8px;
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .pc-container {
+    flex-basis: calc(100% - 16px);
+    margin: 8px;
+    gap: 16px;
+    padding: 30px 60px;
+  }
+}
+  
+
+  
