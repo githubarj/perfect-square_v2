@@ -1,4 +1,4 @@
-/* icon + paragraph card */
+/* =======================================================icon + paragraph card============================== */
 
 .card-container {
   flex-basis: calc(33%);
@@ -33,6 +33,7 @@
 @media screen and (max-width: 590px) {
   .card-container {
     flex-basis: calc(100%);
+    width: 100%;
   }
 }
 @media screen and (max-width: 800px) {

@@ -65,18 +65,14 @@
   flex-direction: column;
   gap: 50px;
   align-items: center;
+  width: 100%;
 }
 
-.values-header {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  width: 800px;
-}
+
 
 
 .values-main {
+  width: 100%;
   padding: 47px 65px;
   border-radius: 16px;
   border: 1px solid #eff0f6;
@@ -88,7 +84,21 @@
   align-items: flex-start;
 }
 
-/* Team  */
+@media screen and (max-width: 800px) {
+  .values-main {
+    padding: 24px 24px;
+  }
+}
+  
+@media screen and (max-width: 400px) {
+  .values-main {
+    gap: 65px 0px;
+  }
+}
+  
+
+
+/* =================================================Team=================================================  */
 
 .team-container,
 .team-main-top,
