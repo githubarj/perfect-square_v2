@@ -12,7 +12,7 @@ function Collection() {
       </div>
       <div className="blog-collections">
         <BlogPanel />
-        <BlogPanel />
+        <BlogPanel /> 
         <BlogPanel />
         <BlogPanel />
         <BlogPanel />

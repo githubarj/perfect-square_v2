@@ -107,9 +107,12 @@
 .blog-groups {
   display: flex;
   gap: 8px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .blog-groups p {
+  flex: 0 0 auto;
   border-radius: 100px;
 
   padding: 7px 8px;
@@ -135,4 +138,20 @@
   flex-wrap: wrap;
   width: 100%;
   gap: 30px 0px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .collection-container {
+    gap: 30px;
+  }
+}
+  
+@media screen and (max-width: 400px) {
+  .collection-container {
+    gap: 16px
+  }
+  .blog-collections {
+    gap: 16px 0px;
+  }
 }
