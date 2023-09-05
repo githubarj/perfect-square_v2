@@ -1,22 +1,17 @@
 import { useNavigate } from "react-router-dom";
 
-import "./modules.css"
+import "./modules.css";
 function ContactBtn() {
+  const navigate = useNavigate();
+  const navToContact = () => {
+    navigate("/contact");
+  };
 
-  const navigate = useNavigate()
-  
-
-   const navToContact = () => {
-     // 👇️ navigate to /contacts
-     navigate("/contact");
-   };
-
-
-  return ( 
+  return (
     <button className="contact-btn text-Medium" onClick={navToContact}>
       Contact Us
     </button>
   );
 }
 
-export default ContactBtn
+export default ContactBtn;

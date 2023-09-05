@@ -5,10 +5,8 @@
   align-items: center;
   border-radius: 47px;
   background: var(--dark);
-  width: 100%; 
-} 
-
-
+  width: 100%;
+}
 
 .links ul {
   list-style-type: none;
@@ -23,8 +21,54 @@
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
-  
-  
+/* ================================dropdown menu============================ */
+
+
+/* Style for the burger menu bars */
+.burger-menu {
+  display: none;
+  cursor: pointer;
 }
 
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.burger-menu.open .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger-menu.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.open .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.links.open ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+  
+@media screen and (max-width: 768px) {
+  .links ul {
+    display: none; /* Hide the navigation links */
+  }
+  .navbar-container .contact-btn{
+    display: none;
+  }
+  .burger-menu {
+    display: block; /* Show the burger menu */
+  }
+
+}

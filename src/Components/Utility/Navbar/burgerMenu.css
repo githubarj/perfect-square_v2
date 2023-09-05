@@ -1,0 +1,32 @@
+/* Styles for the menu */
+.menu {
+  position: fixed;
+  top: 0;
+  right: -375px; /* Initially, the menu is off-screen to the right */
+  height: 100%;
+  width: 375px;
+  background-color: var(--dark);
+  transition: right 0.3s;
+  z-index: 1; /* Ensure the menu is above other content */
+}
+
+.menu.open {
+  right: 0; /* Slide the menu into view when it's open */
+}
+
+/* Style for the burger menu bars */
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Show the navigation links when the menu is open */
+.menu-links.open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

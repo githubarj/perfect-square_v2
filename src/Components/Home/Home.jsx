@@ -8,6 +8,7 @@ import Testimonials from "./Testimonials";
 import BlogsSection from "./BlogsSection";
 import { homeHeaders } from "./homeData";
 
+
 function Home() {
   const blogInfo = homeHeaders[3];
   return (
