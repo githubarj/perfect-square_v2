@@ -43,7 +43,7 @@ function Footer() {
             <a href="https://githubarj.tech/" target="blank">
               © 2023 GithubaRJ.
             </a>
-            All rights reserved.
+            &nbsp;&nbsp;All rights reserved.
           </p>
           <div className="social-icons">
             <a href="">
