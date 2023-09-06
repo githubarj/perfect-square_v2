@@ -8,10 +8,23 @@ function Navbar() {
 
     const [menuVisible, setMenuVisible] = useState(false);
 
-    const toggleMenu = () => {
-      setMenuVisible(!menuVisible);
-    };
-
+   const toggleMenu = () => {
+     if (menuVisible) {
+       
+       document.querySelector(".dropdown-menu").style.animation =
+         "fade-out 0.4s ease-in-out";
+       setTimeout(() => {
+         setMenuVisible(false);
+       }, 300);
+     } else {
+       setMenuVisible(true);
+       
+       document.querySelector(".dropdown-menu").style.animation = "none";
+       setTimeout(() => {
+         document.querySelector(".dropdown-menu").style.animation = "";
+       }, 0);
+     }
+   };
 
 
   return ( 
