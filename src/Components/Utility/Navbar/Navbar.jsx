@@ -6,17 +6,18 @@ import { useState } from "react";
 
 function Navbar() {
 
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuVisible, setMenuVisible] = useState(false);
 
     const toggleMenu = () => {
-      setMenuOpen(!menuOpen);
+      setMenuVisible(!menuVisible);
     };
+
 
 
   return (
     <div className="navbar-container">
       <Logo />
-      <div className={`links ${menuOpen ? "open" : ""}`}>
+      <div className={`links ${menuVisible ? "open" : ""}`}>
         <ul>
           <li>
             <Link className="nav-links text-Medium" to="/">
@@ -47,13 +48,52 @@ function Navbar() {
       </div>
       <ContactBtn />
       <div
-        className={`burger-menu ${menuOpen ? "open" : ""}`}
+        className={`burger-menu ${menuVisible ? "open" : ""}`}
         onClick={toggleMenu}
       >
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
+      {menuVisible && (
+        <div className={`dropdown-menu ${menuVisible ? "open" : ""}`}>
+          <ul>
+            <li>
+              <Link className="nav-links text-Medium" to="/">
+                Home
+              </Link>
+            </li>
+            <hr className="menu-break" />
+            <li>
+              <Link className="nav-links text-Medium" to="/about">
+                About
+              </Link>
+            </li>
+            <hr className="menu-break" />
+            <li>
+              <Link className="nav-links text-Medium" to="/services">
+                Services
+              </Link>
+            </li>
+            <hr className="menu-break" />
+            <li>
+              <Link className="nav-links text-Medium" to="/blogs">
+                Blogs
+              </Link>
+            </li>
+            <hr className="menu-break" />
+            <li>
+              <Link className="nav-links text-Medium" to="/pricing">
+                Pricing
+              </Link>
+            </li>
+            <hr className="menu-break" />
+            <li>
+              <ContactBtn />
+            </li>
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
