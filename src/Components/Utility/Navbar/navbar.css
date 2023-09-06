@@ -149,9 +149,4 @@ letter-spacing: -0.96px;
 
 }
 
-@media  screen and (max-width: 400px) {
-  .dropdown-menu {
-    width: 100%;
-    right: 0;
-  }
-}
+

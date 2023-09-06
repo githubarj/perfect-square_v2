@@ -14,7 +14,7 @@ function Navbar() {
 
 
 
-  return (
+  return ( 
     <div className="navbar-container">
       <Logo />
       <div className={`links ${menuVisible ? "open" : ""}`}>
