@@ -367,13 +367,13 @@
 
 .testimonials-image {
   flex: 1;
-  background-image: url("/images/client-image.png");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
   border-radius: 16px;
-  height: auto;
+  height: 335px;
 }
+  
 
 .testimonial-info {
   flex: 1;

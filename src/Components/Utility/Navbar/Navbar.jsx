@@ -49,7 +49,7 @@ function Navbar() {
           </li>
           <li>
             <Link className="nav-links text-Medium" to="/blogs">
-              Blogs
+              Portfolio
             </Link>
           </li>
           <li>
@@ -91,7 +91,7 @@ function Navbar() {
             <hr className="menu-break" />
             <li>
               <Link className="nav-links text-Medium" to="/blogs">
-                Blogs
+                Portfolio
               </Link>
             </li>
             <hr className="menu-break" />

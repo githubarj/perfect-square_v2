@@ -19,7 +19,7 @@ const homeHeaders = [
   },
   {
     id: 4,
-    categoryTag: "Blogs",
+    categoryTag: "Portfolio",
     h1: "From our Latest Projects",
     p: "",
   },
