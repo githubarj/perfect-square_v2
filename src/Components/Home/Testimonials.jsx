@@ -1,6 +1,6 @@
 import ArrowNavs from "../Utility/Modules/ArrowNavs";
 import { homeHeaders } from "./homeData";
-import { testimonials } from "../../Data/Testimonials";
+import { testimonials as data } from "../../Data/Testimonials";
 import ComponentHeader from "../Utility/Modules/ComponentHeader";
 import { useState } from "react";
 
@@ -8,28 +8,23 @@ import "./home.css";
 
 function Testimonials() {
   const info = homeHeaders[2];
-  const data = [...testimonials];
 
   const [testimonial, setTestimonial] = useState(data[0]);
 
   function changeTestimonialRight() {
-    if (data.indexOf(testimonial) < data.length - 1) {
-       setTestimonial((prevTestimonial) => {
-         return data[data.indexOf(prevTestimonial) + 1];
-       })
-    }else {
-      setTestimonial(data[0])
-    }
+    data.indexOf(testimonial) < data.length - 1
+      ? setTestimonial((prevTestimonial) => {
+          return data[data.indexOf(prevTestimonial) + 1];
+        })
+      : setTestimonial(data[0]);
   }
 
   function changeTestimonialLeft() {
-    if (data.indexOf(testimonial) > 0) {
-      setTestimonial((prevTestimonial) => {
-        return data[data.indexOf(prevTestimonial) - 1];
-      });
-    } else {
-      setTestimonial(data[data.length - 1]);
-    }
+    data.indexOf(testimonial) > 0
+      ? setTestimonial((prevTestimonial) => {
+          return data[data.indexOf(prevTestimonial) - 1];
+        })
+      : setTestimonial(data[data.length - 1]);
   }
 
   return (
@@ -50,7 +45,10 @@ function Testimonials() {
               </h1>
             </div>
           </div>
-          <ArrowNavs right={changeTestimonialRight} left = {changeTestimonialLeft} />
+          <ArrowNavs
+            right={changeTestimonialRight}
+            left={changeTestimonialLeft}
+          />
         </div>
       </div>
     </div>
