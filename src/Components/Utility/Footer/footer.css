@@ -1,11 +1,15 @@
 .footer-container {
-  background-image: url("/images/footer-background.png");
+  /* background-image: url("/images/footer-back.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 50%; */
+  background: var(--dark);
   width: 100%;
-  padding: 80px 67px 54px 67px;
+  padding: 50px 67px 20px 67px;
   overflow: hidden;
 }
+
+
 
 .footer-content {
   display: flex;
