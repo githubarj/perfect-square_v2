@@ -17,7 +17,6 @@
 
 .hb-image {
   flex: 1;
-  background-image: url("/images/solar-panel.jpg");
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -110,6 +109,7 @@
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+  cursor: pointer;
 }
 
 .blog-groups p {

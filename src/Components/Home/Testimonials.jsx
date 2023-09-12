@@ -25,7 +25,7 @@ function Testimonials() {
           return data[data.indexOf(prevTestimonial) - 1];
         })
       : setTestimonial(data[data.length - 1]);
-  }
+  } 
 
   return (
     <div className="testimonials-container">

@@ -9,7 +9,7 @@ function BlogPanel(props) {
       <div className="blog-panel-main">
         <div
           className="blog-panel-image"
-          style={{ backgroundImage: `url${props.coverImg}` }}
+          style={{ backgroundImage: `url(${props.coverImg})` }}
         ></div>
         <div className="blog-group">
           <h2 className="text-Medium">{props.tag}</h2>
