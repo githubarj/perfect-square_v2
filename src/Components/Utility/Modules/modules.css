@@ -65,7 +65,7 @@
   background: #fff;
 }
 
-.arrow-size{
+.arrow-size {
   width: 21px;
   height: 21px;
 }
@@ -87,22 +87,18 @@
   text-decoration: none;
   color: var(--dark);
   line-height: 150%; /* 24px */
-}
-
-.view-links-div {
   display: flex;
   align-items: center;
   gap: 8px;
   cursor: pointer;
 }
 
+
 .rotated-image {
   transform: rotate(90deg);
 }
 
 /* ==================================================Logo========================================== */
-
-
 
 .logo h1 {
   color: #fff;
@@ -240,7 +236,7 @@
   width: 100%;
 }
 
-.ac-wrapper{
+.ac-wrapper {
   width: 90%;
 }
 
@@ -248,14 +244,13 @@
   color: var(--grey);
 }
 
-@media screen and ( max-width: 400px) {
+@media screen and (max-width: 400px) {
   .ap-container h1 {
     font-size: 16px !important;
 
     font-weight: 400;
 
     letter-spacing: -0.96px;
-    
   }
   .ap-container li {
     font-size: 12px;
@@ -264,5 +259,3 @@
     letter-spacing: -0.5px;
   }
 }
-
-

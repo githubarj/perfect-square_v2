@@ -4,12 +4,10 @@ import { Link } from "react-router-dom";
 
 function ViewAll(props) {
   return (
-    <div className="view-links-div ">
-      <Link className="view-all heading-XSmall" to={props.link}>
-        View All
-      </Link>
+    <Link className="view-all heading-XSmall" to={props.link}>
+      View All
       <img src="/images/arrow.png" alt="" className={props.rotate} />
-    </div>
+    </Link>
   );
 }
 

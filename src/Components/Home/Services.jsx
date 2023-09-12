@@ -25,7 +25,7 @@ function Services() {
         <div className="card-nav-links">
           <ContactBtn className="contact-btn-show"/>
           <ViewAll
-          link="/services"
+          link="/services" 
            />
         </div> 
       </div>
