@@ -48,9 +48,9 @@
 
 @media screen and (max-width: 400px) {
   .card-container img {
-  width: 26px;
-  height: 24px;
-}
+    width: 26px;
+    height: 24px;
+  }
 }
 
 /* blog-panel */
@@ -137,7 +137,6 @@
     flex-basis: calc(100% - 16px);
     margin: 8px;
   }
-  
 }
 
 /* ==========================================PricingCard================================== */
@@ -163,14 +162,14 @@
 
 .pc-container p {
   text-align: center;
-
 }
 
 .pc-container button {
   border-radius: 20px;
-  border: 1px solid #7f56d9;
+  border: 1px solid var(--normal);
   padding: 8px 30px;
-  color: #7f56d9;
+  color: var(--normal);
+  background: #faf2f3;
 
   font-weight: 500;
 
@@ -184,16 +183,12 @@
   width: 100%;
 }
 
-
-
 .pc-details-constant ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-
-
 
 .pc-details-constant ul li {
   display: inline-flex;
@@ -204,8 +199,8 @@
   align-items: center;
   border-radius: 4px;
   border: 1px solid #eff0f6;
-  background: #f6f1fd;
-  color: var(--primary-purple-normal, #7f56d9);
+  background: #f6dcdf;
+  color: var(--normal);
   font-family: Inter;
   font-size: 12px;
   font-style: normal;
@@ -252,7 +247,7 @@
 
 .pc-details-unique li::before {
   content: "\2022"; /* Unicode bullet character or use any other character you prefer */
-  color: #7f56d9; /* Change the bullet color to your desired color */
+  color: var(--normal); /* Change the bullet color to your desired color */
   font-size: 24px; /* Change the bullet size to your desired size */
   margin-right: 5px; /* Adjust the margin for spacing between bullet and text */
 }
@@ -267,7 +262,6 @@
 
 @media screen and (max-width: 800px) {
   .pc-container {
-
     padding: 30px 30px;
     gap: 8px;
   }
@@ -284,6 +278,3 @@
     height: 8px;
   }
 }
-  
-
-  
