@@ -6,5 +6,4 @@ const blogsPageHeader = {
 
 
 
-
 export{blogsPageHeader}

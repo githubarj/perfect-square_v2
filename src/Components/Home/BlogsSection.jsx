@@ -7,14 +7,21 @@ import { homeHeaders } from "./homeData";
 import PropTypes from "prop-types"
 
 function BlogsSection(props) {
-   const info = homeHeaders[3];
+   const info = homeHeaders[3]; 
+   
+  
+  const blogsArray = props.blogs
+   const displayedBlogs = blogsArray.map((item, index) => {
+      return <BlogPanel key={index}  {...item} />
+   } )
+
+
+
   return (
     <div className="blogs-section-container">
       <ComponentHeader category={info.categoryTag} h1={props.h1} p={info.p} />
       <div className="blogs-section-content">
-        <BlogPanel />
-        <BlogPanel />
-        <BlogPanel />
+        {displayedBlogs}
       </div>
       <div className="card-nav-links">
         <ContactBtn />
@@ -26,6 +33,7 @@ function BlogsSection(props) {
 
 BlogsSection.propTypes = {
   h1: PropTypes.string,
+  blogs: PropTypes.array,
 }
 
 export default BlogsSection
