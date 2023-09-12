@@ -36,7 +36,7 @@
 .overview-pic {
   flex: 1;
   height: 284px;
-  background-image: url("/public/images/overview.jpeg");
+  background-image: url("/images/overview.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +85,7 @@
   width: 100%;
   border-radius: 16px;
   border: 1px solid #eff0f6;
-  background-image: url("/public//images/article-slide.jpeg");
+  background-image: url("/images/article-slide.jpeg");
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;

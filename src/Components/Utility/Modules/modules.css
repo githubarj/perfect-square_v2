@@ -29,7 +29,7 @@
     90deg,
     #e9d8ff 0%,
     rgba(255, 255, 255, 0) 100%,
-    #29252e 100%
+    #3b0b10 100%
   );
   display: inline-block;
 }
@@ -55,7 +55,7 @@
   padding: 17.23px 19.23px 17.23px 15.23px;
   align-items: center;
   border-radius: 999px;
-  border: 1px solid #7f56d9;
+  border: 1px solid var(--normal);
   opacity: 0.801;
   cursor: pointer;
   background: var(--normal);
@@ -63,6 +63,11 @@
 
 .left {
   background: #fff;
+}
+
+.arrow-size{
+  width: 21px;
+  height: 21px;
 }
 
 @media screen and (max-width: 400px) {

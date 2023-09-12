@@ -130,7 +130,7 @@
 
 .blog-groups .active {
   border: none;
-  background: #b190db;
+  background: var(--light);
   color: #fff;
 }
 
