@@ -2,7 +2,7 @@ const portfolio = [
   {
     name: "Brenda Akinyi",
     tag: "Solar",
-    coverImg: "/public/images/Portfolio/Brenda-Akinyi/IMG-20230408-WA0026.jpg",
+    coverImg: "/images/Portfolio/Brenda-Akinyi/IMG-20230408-WA0026.jpg",
     heading:
       "Illuminating Success: Installing Solar Panels for a Delighted Customer",
     description:
@@ -268,7 +268,7 @@ const portfolio = [
   {
     name: "Brenda Akinyi",
     tag: "Solar",
-    coverImg: "/public/images/Portfolio/Brenda-Akinyi/IMG-20230408-WA0032.jpg",
+    coverImg: "/images/Portfolio/Brenda-Akinyi/IMG-20230408-WA0032.jpg",
     heading:
       " Illuminating Success: Installing Solar Panels for a Delighted Customer",
     description:

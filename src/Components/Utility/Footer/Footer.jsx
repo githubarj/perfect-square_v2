@@ -1,8 +1,19 @@
 import Logo from "../Modules/Logo";
 import { Link } from "react-router-dom";
+import { footerLinks } from "./footerLinks";
 import "./footer.css";
 
 function Footer() {
+
+const links = footerLinks.map((item, index)=> {
+  return (
+    <a  key={index} href={item.link} target="_blank" rel="noreferrer"  >
+      <img src= {item.iconImg} alt="" className="link-icon" />
+    </a>
+  );
+})
+  
+
   return (
     <div className="footer-container">
       <div className="footer-content">
@@ -46,19 +57,7 @@ function Footer() {
             &nbsp;&nbsp;All rights reserved.
           </p>
           <div className="social-icons">
-            <a href="">
-              <img
-                src="/images/twitter.png"
-                alt=""
-                className="link-icon tw-icon"
-              />
-            </a>
-            <a href="">
-              <img src="/images/facebook.png" alt="" className="link-icon" />
-            </a>
-            <a href="">
-              <img src="/images/linkedIn.png" alt="" className="link-icon" />
-            </a>
+            {links}
           </div>
         </div>
       </div>
