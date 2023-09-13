@@ -13,7 +13,7 @@ function FAQs() {
         h1={header.h1}
         p={header.p}
         span={header.span}
-      />
+      /> 
       <div className="faqs-questions-section">
         <QuestionAnswer />
         <QuestionAnswer />

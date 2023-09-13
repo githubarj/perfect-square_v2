@@ -10,7 +10,7 @@ const componentHeaders = [
     categoryTag: "FAQs",
     h1: "Answers to some of your questions",
     p: `Don’t find the answers you were looking for? Contact us at `,
-    span: "perfectsquare@gmail.com",
+    span: "info@perfectsquare.cc",
   },
 ];
 
