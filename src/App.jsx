@@ -20,7 +20,7 @@ function App() {
         rel="noreferrer"
         className="floating-icon"
       >
-        <img src="/public/images/Icons/icons8-whatsapp-48.png" alt="" />
+        <img src="/images/Icons/icons8-whatsapp-48.png" alt="" />
       </a>
       <Routes key={location.pathname} location={location}>
         <Route path="/" element={<Home />} />
