@@ -220,6 +220,10 @@
   text-decoration: none;
 }
 
+.contact-info-container p {
+  text-align: center;
+}
+
 /* ==============================================ArticleParagraph=========================== */
 .ap-container {
   display: flex;

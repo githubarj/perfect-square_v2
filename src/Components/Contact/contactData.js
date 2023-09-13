@@ -14,27 +14,27 @@ const componentHeaders = [
   },
 ];
 
-const contactInfo = [ 
+const contactInfo = [
   {
     id: 1,
     icon: "/images/whatsapp.png",
     h2: "WhatsApp",
-    text: "0712345678",
-    link: "",
+    text: "+254 722 540649",
+    link: "https://api.whatsapp.com/send?phone=254722540649&text=Hello",
   },
   {
     id: 2,
     icon: "/images/briefcase.png",
     h2: "Sales and Businesses",
-    text: "0712345678",
-    link: "",
+    text: "info@perfectsquare.cc",
+    link: `"mailto:info@perfectsquare.cc"`,
   },
   {
     id: 3,
     icon: "/images/customer-support.png",
     h2: "Customer Support",
-    text: "0712345678",
-    link: "",
+    text: "+254 705 561607",
+    link: "tel:+254705561607",
   },
 ];
 
