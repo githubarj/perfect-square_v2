@@ -14,7 +14,7 @@ const componentHeaders = [
   },
 ];
 
-const contactInfo = [
+const contactInfo = [ 
   {
     id: 1,
     icon: "/images/whatsapp.png",

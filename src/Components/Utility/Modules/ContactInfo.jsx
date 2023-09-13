@@ -2,11 +2,16 @@ import PropTypes from "prop-types";
 import "./modules.css";
 function ContactInfo(props) {
   return (
-    <div className="contact-info-container">
+    <a
+      className="contact-info-container heading-Small "
+      href={props.link}
+      rel="noreferrer"
+      target="_blank"
+    >
       <img src={props.icon} alt="" />
       <h2> {props.h2} </h2>
-      <a href={props.link}>{props.text}</a>
-    </div>
+      <p>{props.text}</p>
+    </a>
   );
 }
 

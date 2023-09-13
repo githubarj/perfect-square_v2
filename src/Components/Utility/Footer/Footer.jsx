@@ -4,15 +4,13 @@ import { footerLinks } from "./footerLinks";
 import "./footer.css";
 
 function Footer() {
-
-const links = footerLinks.map((item, index)=> {
-  return (
-    <a  key={index} href={item.link} target="_blank" rel="noreferrer"  >
-      <img src= {item.iconImg} alt="" className="link-icon" />
-    </a>
-  );
-})
-  
+  const links = footerLinks.map((item, index) => {
+    return (
+      <a key={index} href={item.link} target="_blank" rel="noreferrer">
+        <img src={item.iconImg} alt="" className="link-icon" />
+      </a>
+    );
+  });
 
   return (
     <div className="footer-container">
@@ -56,9 +54,7 @@ const links = footerLinks.map((item, index)=> {
             </a>
             &nbsp;&nbsp;All rights reserved.
           </p>
-          <div className="social-icons">
-            {links}
-          </div>
+          <div className="social-icons">{links}</div>
         </div>
       </div>
     </div>
