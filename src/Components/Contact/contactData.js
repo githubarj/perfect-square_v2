@@ -27,7 +27,7 @@ const contactInfo = [
     icon: "/images/briefcase.png",
     h2: "Sales and Businesses",
     text: "info@perfectsquare.cc",
-    link: `"mailto:info@perfectsquare.cc"`,
+    link: "mailto:info@perfectsquare.cc",
   },
   {
     id: 3,
