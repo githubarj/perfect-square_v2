@@ -1,6 +1,5 @@
 import Navbar from "../Utility/Navbar/Navbar"
 import AboutStory from "./AboutStory"
-import Team from "./Team"
 import Values from "./Values"
 import { aboutPageHeader } from "./aboutData"
 import "./about.css"
