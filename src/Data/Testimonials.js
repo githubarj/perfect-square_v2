@@ -1,6 +1,6 @@
 const testimonials = [
   {
-    testimoanialImage: "/public/images/testimonialImages/peter.jpg",
+    testimoanialImage: "/images/testimonialImages/peter.jpg",
     testimonialText:
       "I used to hate the unreasonably high energy costs and soon after I decided to switch to solar, a friend referred me to this company. They worked my energy requirements and installed me a 5KVA solar back up. No complains hitherto, it is working perfectly. I highly recommend you for SOLAR power installations.",
     name: "Mr Makhanu Peter",

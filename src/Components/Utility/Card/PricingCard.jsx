@@ -11,7 +11,7 @@ function PricingCard() {
           <ul>
             <li>
               Served by Industry Proffesionals
-              <img src="/images/tick.png" alt="" />
+              <img src="/images/tick.png" alt="" /> 
             </li>
             <li>
               Excellent Customer Support

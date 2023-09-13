@@ -13,7 +13,7 @@ function About() {
       <PageHeader h1={aboutPageHeader.h1} p={aboutPageHeader.p} display={aboutPageHeader.display}/>
       <AboutStory />
       <Values />
-      <Team />
+      {/* <Team /> */}
     </div>
   );
 }

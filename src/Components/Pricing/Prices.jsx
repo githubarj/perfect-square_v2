@@ -2,7 +2,7 @@
 import PricingCard from "../Utility/Card/PricingCard"
 import "./pricing.css"
 
-function Prices() {
+function Prices() { 
   return (
     <div className="prices-container">
       <PricingCard />
