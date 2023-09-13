@@ -3,6 +3,7 @@ import PageHeader from "../Utility/Modules/PageHeader";
 import { pricingPageHeader } from "./pricingData";
 import "./pricing.css"
 import Prices from "./Prices";
+import CatalogueButton from "./CatalogueButton";
 
 function Pricing() {
   return (
@@ -14,6 +15,7 @@ function Pricing() {
         display={pricingPageHeader.display}
       />
       <Prices/>
+      <CatalogueButton />
     </div>
   );
 }

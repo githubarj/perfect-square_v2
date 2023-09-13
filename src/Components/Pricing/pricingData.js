@@ -4,4 +4,10 @@ const pricingPageHeader = {
   display: "none",
 };
 
-export { pricingPageHeader };
+const catalogueItems = {
+  category: "Catalogue",
+  h1: "Discover even more Products",
+  p: "Download our catalogue to browse through our rich inventory of products like solar batteries and panels",
+  pdf: "/Perfect Square Catalogue 2023.pdf"
+};
+export { pricingPageHeader, catalogueItems };
