@@ -1,7 +1,6 @@
 import "./card.css";
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-
 
 function BlogPanel(props) {
   return (
@@ -19,7 +18,7 @@ function BlogPanel(props) {
           <p className="heading-XSmall">{props.description}</p>
         </div>
       </div>
-      <Link to="/article" className="read-more heading-XSmall">
+      <Link to={`/article/${props.id} `} className="read-more heading-XSmall">
         Read more
       </Link>
     </div>
@@ -31,8 +30,7 @@ BlogPanel.propTypes = {
   description: PropTypes.string,
   tag: PropTypes.string,
   coverImg: PropTypes.string,
+  id: PropTypes.number,
 };
-
-
 
 export default BlogPanel;

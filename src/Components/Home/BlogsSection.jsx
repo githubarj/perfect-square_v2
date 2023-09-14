@@ -12,12 +12,12 @@ function BlogsSection(props) {
   
   const blogsArray = props.blogs
    const displayedBlogs = blogsArray.map((item, index) => {
-      return <BlogPanel key={index}  {...item} />
+      return <BlogPanel key={index}  {...item} id= {index} />
    } )
 
 
 
-  return (
+  return ( 
     <div className="blogs-section-container">
       <ComponentHeader category={info.categoryTag} h1={props.h1} p={info.p} />
       <div className="blogs-section-content">

@@ -39,7 +39,7 @@ function Collection() {
   });
 
   const allBlogs = blogs.map((item, index) => {
-    return <BlogPanel key={index} {...item} />;
+    return <BlogPanel key={index} {...item} id = {index} />;
   });
 
   return (

@@ -24,7 +24,7 @@ const articleData = [
 ];
 
 const related = {
-  h1: "Related Works"
+  h1: "Related Works" 
 }
 
 export {articleData, related}
