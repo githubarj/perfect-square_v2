@@ -9,11 +9,11 @@ import { useParams } from "react-router-dom";
 
 function Article() {
   const recentBlogs = portfolio.slice(-3);
+
+
   const { id } = useParams();
   const data = portfolio[id];
   const article = data.articleData;
-
-  console.log(data.articleData.content);
 
   const content = article.pictures.map((item, index) => {
     return <ArticleContent key={index} {...item} />;

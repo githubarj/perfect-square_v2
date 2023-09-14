@@ -18,7 +18,7 @@ function HeroBlogs() {
           <h1 className="heading-Large">{heroBlog.heading}</h1>
           <p className="heading-Small">{heroBlog.description}</p>
         </div>
-        <Link to="/article" className="read-more heading-XSmall">
+        <Link to= {`/article/${portfolio.length-1}`} className="read-more heading-XSmall">
           Read more
         </Link>
       </div>
