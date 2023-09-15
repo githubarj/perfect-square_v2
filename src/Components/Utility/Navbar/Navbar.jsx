@@ -2,111 +2,69 @@ import ContactBtn from "../Modules/ContactBtn";
 import Logo from "../Modules/Logo";
 import "./navbar.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { navItems } from "../../../Data/navItems";
+import { useEffect, useState } from "react";
 
 function Navbar() {
+  const [menuVisible, setMenuVisible] = useState(false);
+  const [hideMenu, setHideMenu] = useState(true);
+  function toggleMenu() {
+    setMenuVisible((prev) => !prev);
 
-    const [menuVisible, setMenuVisible] = useState(false);
+    if (hideMenu === false) {
+      setTimeout(() => {
+        setHideMenu((prev) => !prev);
+      }, 400);
+    } else {
+      setHideMenu((prev) => !prev);
+    }
+  }
 
-   const toggleMenu = () => {
-     if (menuVisible) {
-       
-       document.querySelector(".dropdown-menu").style.animation =
-         "fade-out 0.4s ease-in-out";
-       setTimeout(() => {
-         setMenuVisible(false);
-       }, 300);
-     } else {
-       setMenuVisible(true);
-       
-       document.querySelector(".dropdown-menu").style.animation = "none";
-       setTimeout(() => {
-         document.querySelector(".dropdown-menu").style.animation = "";
-       }, 0);
-     }
-   };
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
-  return ( 
+  const className = screenWidth >= 768 ? "links" : "dropdown-menu";
+
+  const navOptions = navItems.map((item, index) => {
+    return (
+      <Link className="nav-links text-Medium" to={item.to} key={index}>
+        <li>{item.name}</li>
+      </Link>
+    );
+  });
+
+  return (
     <div className="navbar-container">
       <Logo />
-      <div className={`links ${menuVisible ? "open" : ""}`}>
-        <ul>
-          <li>
-            <Link className="nav-links text-Medium" to="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="nav-links text-Medium" to="/about">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link className="nav-links text-Medium" to="/services">
-              Services
-            </Link>
-          </li>
-          <li>
-            <Link className="nav-links text-Medium" to="/blogs">
-              Portfolio
-            </Link>
-          </li>
-          <li>
-            <Link className="nav-links text-Medium" to="/pricing">
-              Pricing
-            </Link>
-          </li>
+      <div
+        className={`${className} ${menuVisible ? "open" : `close`} ${
+          hideMenu && "hide"
+        }  `}
+      >
+        <ul className="nav-options">
+          {navOptions} <ContactBtn />
         </ul>
       </div>
       <ContactBtn />
+
+      {/* Burger Menu */}
       <div
-        className={`burger-menu ${menuVisible ? "open" : ""}`}
         onClick={toggleMenu}
+        className={`burger-menu ${menuVisible ? "open" : "close"} `}
       >
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
-      {menuVisible && (
-        <div className={`dropdown-menu ${menuVisible ? "open" : ""}`}>
-          <ul>
-            <li>
-              <Link className="nav-links text-Medium" to="/">
-                Home
-              </Link>
-            </li>
-            <hr className="menu-break" />
-            <li>
-              <Link className="nav-links text-Medium" to="/about">
-                About
-              </Link>
-            </li>
-            <hr className="menu-break" />
-            <li>
-              <Link className="nav-links text-Medium" to="/services">
-                Services
-              </Link>
-            </li>
-            <hr className="menu-break" />
-            <li>
-              <Link className="nav-links text-Medium" to="/blogs">
-                Portfolio
-              </Link>
-            </li>
-            <hr className="menu-break" />
-            <li>
-              <Link className="nav-links text-Medium" to="/pricing">
-                Pricing
-              </Link>
-            </li>
-            <hr className="menu-break" />
-            <li>
-              <ContactBtn />
-            </li>
-          </ul>
-        </div>
-      )}
     </div>
   );
 }

@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.links {
+  display: block !important;
+}
+
 .links ul {
   list-style-type: none;
   display: flex;
@@ -17,15 +21,17 @@
   width: 100%;
 }
 
+.nav-options .contact-btn {
+  display: none;
+}
+
 .nav-links {
   text-decoration: none;
   color: #fff;
 }
 
-/* ================================dropdown menu============================ */
+/* ================================Burger menu============================ */
 
-
-/* Style for the burger menu bars */
 .burger-menu {
   display: none;
   cursor: pointer;
@@ -51,28 +57,25 @@
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-
-
+/* ==============================dropdown menu============================== */
 .dropdown-menu {
-  display: none;
   position: absolute;
-  top: 100%;
+  top: 64px;
   right: 10px;
   width: 200px;
   border-radius: 4px;
   padding: 16px 16px;
   background-color: var(--dark);
-  /* Other styling for the dropdown menu... */
 }
 
 .menu-break {
-  width: 100% ;
+  width: 100%;
   height: 0px;
-  background-color:  grey !important;
+  background-color: grey !important;
   border: none;
 }
 
-.dropdown-menu::before{
+.dropdown-menu::before {
   content: "";
   position: absolute;
   right: 15px;
@@ -90,26 +93,38 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  
+  width: 100%;
+}
+
+.dropdown-menu li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dropdown-menu .nav-links {
-letter-spacing: -0.96px;
+  letter-spacing: -0.96px;
+  width: 100%;
 }
 
 .dropdown-menu .contact-btn {
   display: block !important;
 }
 
-
-
 .dropdown-menu.open {
-  display: block;
+  display: block !important;
   top: 65px;
   animation: fade-in 0.5s ease-in-out;
-  
 }
 
+.dropdown-menu.close {
+  animation: fade-out 0.5s ease-in-out;
+}
+
+.dropdown-menu.hide {
+  display: none !important;
+}
 
 @keyframes fade-in {
   0% {
@@ -133,20 +148,12 @@ letter-spacing: -0.96px;
   }
 }
 
-
-
-  
+/* ===================================break-points==================================== */
 @media screen and (max-width: 768px) {
-  .links ul {
-    display: none; /* Hide the navigation links */
-  }
-  .navbar-container .contact-btn{
+  .navbar-container .contact-btn {
     display: none;
   }
   .burger-menu {
-    display: block; /* Show the burger menu */
+    display: block;
   }
-
 }
-
-
