@@ -163,12 +163,13 @@
   text-align: center;
 }
 
-.pc-container button {
+.pc-container a {
   border-radius: 20px;
   border: 1px solid var(--normal);
   padding: 8px 30px;
   color: var(--normal);
   background: #faf2f3;
+  text-decoration: none;
 
   font-weight: 500;
 
