@@ -33,7 +33,7 @@ const contactInfo = [
     id: 3,
     icon: "/images/customer-support.png",
     h2: "Customer Support",
-    text: "+254 705 561607",
+    text: "+254 720 829111",
     link: "tel:+254705561607",
   },
 ];
