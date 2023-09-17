@@ -1,26 +1,56 @@
 import { contactInfo } from "./contactData";
 import "./contact.css";
 import ContactInfo from "../Utility/Modules/ContactInfo";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 
 function ContactForm() {
   const contactDetails = contactInfo.map((item) => {
     return <ContactInfo key={item.id} {...item} />;
   }); 
 
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs
+        .sendForm(
+          "service_y9j6qq2",
+          "template_674cekj",
+          form.current,
+          "yeT6mDoMNVA7sdQmZ"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            e.target.reset()
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    };
+
   return (
     <div className="contact-form-container">
       <div className="contact-form-main">
         <div className="contact-form-content">
-          <form action="/submit" method="post" className="form-section">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="form-section"
+          >
             <div className="form-row">
               <div className="form-column">
                 <label htmlFor="first-name">First Name</label>
-                <input type="text" id="first-name" name="first-name" required />
+                <input type="text" id="first-name" name="first_name" required />
               </div>
 
               <div className="form-column">
                 <label htmlFor="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last-name" required />
+                <input type="text" id="last-name" name="last_name" required />
               </div>
             </div>
 
@@ -52,7 +82,7 @@ function ContactForm() {
                   I agree with the terms of usage and privacy policy.
                 </label>
               </div>
-              <button type="submit">Submit</button>
+              <button type="submit" value= "Send" >Submit</button>
             </div>
           </form>
         </div>
