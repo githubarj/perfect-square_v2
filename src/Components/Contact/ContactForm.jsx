@@ -77,8 +77,8 @@ function ContactForm() {
 
             <div className="form-footer">
               <div className="form-footer-terms">
-                <input type="checkbox" name="terms" required />
-                <label className="footer-label">
+                <input type="checkbox" name="terms" required id="terms" />
+                <label className="footer-label" htmlFor="terms" >
                   I agree with the terms of usage and privacy policy.
                 </label>
               </div>
