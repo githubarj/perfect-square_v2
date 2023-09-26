@@ -152,35 +152,35 @@ const portfolio = [
     name: "ruambwa",
     date: "",
     tag: "Solar solutions",
-    coverImg: "/public/images/Portfolio/Ruambwa/IMG-20230418-WA0017.jpg",
+    coverImg: "/images/Portfolio/Ruambwa/IMG-20230418-WA0017.jpg",
     heading: "Ruambwa's Safety Enhanced with Our Solar Light",
     description:
       "Our company takes pride in illuminating Ruambwa with cutting-edge solar security lights. These eco-friendly lights enhance safety, deterring trespassers while conserving energy and reducing utility costs for the community.",
     articleData: {
       pictures: [
         {
-          url: "/public/images/Portfolio/Ruambwa/IMG-20230418-WA0015.jpg",
+          url: "/images/Portfolio/Ruambwa/IMG-20230418-WA0015.jpg",
         },
         {
-          url: "/public/images/Portfolio/Ruambwa/IMG-20230418-WA0017.jpg",
+          url: "/images/Portfolio/Ruambwa/IMG-20230418-WA0017.jpg",
         },
         {
-          url: "/public/images/Portfolio/Ruambwa/IMG-20230418-WA0020.jpg",
+          url: "/images/Portfolio/Ruambwa/IMG-20230418-WA0020.jpg",
         },
         {
-          url: "/public/images/Portfolio/Ruambwa/IMG-20230418-WA0021.jpg",
+          url: "/images/Portfolio/Ruambwa/IMG-20230418-WA0021.jpg",
         },
         {
-          url: "/public/images/Portfolio/Ruambwa/IMG-20230418-WA0029.jpg",
+          url: "/images/Portfolio/Ruambwa/IMG-20230418-WA0029.jpg",
         },
         {
-          url: "/public/images/Portfolio/Ruambwa/IMG-20230418-WA0040.jpg",
+          url: "/images/Portfolio/Ruambwa/IMG-20230418-WA0040.jpg",
         },
         {
-          url: "/public/images/Portfolio/Ruambwa/IMG-20230418-WA0041.jpg",
+          url: "/images/Portfolio/Ruambwa/IMG-20230418-WA0041.jpg",
         },
         {
-          url: "/public/images/Portfolio/Ruambwa/IMG-20230418-WA0044.jpg",
+          url: "/images/Portfolio/Ruambwa/IMG-20230418-WA0044.jpg",
         },
       ],
     },
