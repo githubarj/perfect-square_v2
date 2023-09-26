@@ -47,48 +47,22 @@ const prices = [
     ],
     unique: [
       {
-        text: "Diiiging of proposed site",
+        text: "Drilling of the borehole",
       },
       {
-        text: "Casing of the piping",
+        text: "Casing and Gravelling",
       },
       {
-        text: "Flushing",
-      },
-    ],
-  },
-  {
-    product: "Geological Survey",
-    price: "50,000",
-    constant: [
-      {
-        text: "Served by Industry Proffesionals",
+        text: "Test pumping",
       },
       {
-        text: "Excellent Customer Support",
+        text: "Full chemical test of borehole water",
       },
       {
-        text: "Guidance through out the Project",
-      },
-    ],
-    unique: [
-      {
-        text: "Site Selection and Evaluation",
-      },
-      {
-        text: "Geophysical Surveys",
-      },
-      {
-        text: "Geotechnical Testing",
-      },
-      {
-        text: "Geological Logging",
-      },
-      {
-        text: "Detailed Report",
+        text: "Bacteriological test of borehole water",
       },
     ],
   },
 ];
 
-export {prices}
+export { prices };
