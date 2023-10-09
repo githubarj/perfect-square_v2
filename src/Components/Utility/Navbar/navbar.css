@@ -30,6 +30,13 @@
   color: #fff;
 }
 
+.nav-links:hover {
+  color: #948182;
+}
+
+.nav-active {
+  color: #948182 !important;
+}
 /* ================================Burger menu============================ */
 
 .burger-menu {

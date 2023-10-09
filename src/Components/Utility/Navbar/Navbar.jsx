@@ -1,7 +1,7 @@
 import ContactBtn from "../Modules/ContactBtn";
 import Logo from "../Modules/Logo";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { navItems } from "../../../Data/navItems";
 import { useEffect, useState } from "react";
 
@@ -36,9 +36,14 @@ function Navbar() {
 
   const navOptions = navItems.map((item, index) => {
     return (
-      <Link className="nav-links text-Medium" to={item.to} key={index}>
+      <NavLink
+        className="nav-links text-Medium"
+        style={({ isActive }) => ({ color: isActive ? "#948182" : "" })}
+        to={item.to}
+        key={index}
+      >
         <li>{item.name}</li>
-      </Link>
+      </NavLink>
     );
   });
 
