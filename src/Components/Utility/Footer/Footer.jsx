@@ -50,7 +50,7 @@ function Footer() {
         <div className="social-links">
           <p className="text-Small">
             <a href="https://githubarj.tech/" target="blank">
-              © 2023 GithubaRJ.
+              © 2023 GithubaRJ. All Rights Reserved.
             </a>
             &nbsp;&nbsp;
           </p>
