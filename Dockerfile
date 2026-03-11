@@ -8,7 +8,7 @@ RUN npm run build
 
 
 # Production stage
-FROM nginx:1.29.6
+FROM nginx
 COPY --from=builder /app/dist /usr/share/nginx/html
 COPY nginx.app.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
